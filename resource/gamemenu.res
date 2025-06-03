@@ -1,0 +1,91 @@
+"GameMenu" [$WIN32]
+{
+	"VRModeButton"
+	{
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
+	}
+
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
+	"CallVoteButton"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
+	}
+	"MutePlayersButton"
+	{
+		"label"			""
+		"command"		"OpenMutePlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage" "glyph_muted"
+		"tooltip" "#MMenu_MutePlayers"
+	}
+	"RequestCoachButton"
+	{
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage" "icon_whistle"
+		"tooltip" "#MMenu_RequestCoach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
+	}
+	"QuitButtonNew"
+	{
+		"label"			"#TF_Quit_Title"
+		"command"		"quit"
+		"OnlyAtMenu"	"1"
+	}
+	"QuitButtonNewOutline"
+	{
+		"label"			"#TF_Quit_Title"
+		"command"		"quit"
+		"OnlyAtMenu"	"1"
+	}
+	"DisconnectButtonNew"
+	{
+		"label"			"#TF_Disconnect"
+		"command"		"engine cl_disconnect_prompt"
+		"OnlyInGame"	"1"
+	}
+	"DisconnectButtonNewOutline"
+	{
+		"label"			"#TF_Disconnect"
+		"command"		"engine cl_disconnect_prompt"
+		"OnlyInGame"	"1"
+	}
+	
+	"UncletopiaButton"
+	{
+		"label"			"Uncletopia"
+		"Command"		"url https://uncletopia.com/servers"
+		"tooltip" 		"Uncletopia"
+	}
+	
+	"GithubButton"
+	{
+		"label"			"Github"
+		"Command"		"url https://github.com/SolarLightTF2/SolarLightHUD-Classic/"
+		"tooltip" 		"Github"
+	}
+
+	"ComfigHUDsButton"
+	{
+		"label"			"Comfig HUDs"
+		"Command"		"url https://comfig.app/huds/page/solarlight-hud/"
+		"tooltip" 		"Comfig HUDs"
+	}
+	
+}

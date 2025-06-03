@@ -1,0 +1,23 @@
+"characters"
+{
+	"basic_demoman"
+	{
+		"image"	"../console/characters/gregory_test"
+		"item_url"	"demoman"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Demoman"
+	}
+	"zombie_medic"
+	{
+		"image"	"../console/characters/gregory_test"
+		"item_url"	"medic"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Medic"
+		"holiday_restriction"	"halloween_or_fullmoon"
+	}
+	"winter2014_spy"
+	{
+		"image"	"../console/characters/gregory_test"
+		"item_url"	"spy"
+		"store_text"		"#TF_Trial_MainMenu_Upsell_Spy"
+		"holiday_restriction"	"christmas"
+	}
+}

@@ -198,6 +198,30 @@
 		"font"			"Futura20"
 	}
 	
+	"okfast" //continue but you can press E, doesn't need to be visible but needs visible 1 to work
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"okfast"
+		"xpos"			"9999"
+		"ypos"			"r100"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"&E"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"font"			"Futura20"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"

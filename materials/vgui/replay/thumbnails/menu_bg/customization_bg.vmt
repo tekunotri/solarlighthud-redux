@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/menu_bg/customization_bg"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$detail"	"vgui/replay/thumbnails/linebg_blu"
+	"$detailblendmode" 0
+	"$detailscale"	"[ 4 50 ]"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{	
+			"texturescrollvar" "$detailtexturetransform"
+			"texturescrollrate" 0.00015
+			"texturescrollangle" 270
+		}
+	}
+}
+

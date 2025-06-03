@@ -1,0 +1,224 @@
+"Resource/UI/TextWindow.res"
+{
+	"info"
+	{
+		"ControlName"			"CTFTextWindow"
+		"fieldName"				"info"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"settitlebarvisible"	"0"
+	}
+	
+	"BGDarken"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGDarken"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"0 0 0 195"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"255"
+		"draw_corner_height" "11"
+	}
+	
+	"BGHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGHeader"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"20"
+		"fillcolor"		"TanLight"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"255"
+		"draw_corner_height" "11"
+	}
+	
+	"BGFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGFooter"
+		"xpos"			"0"
+		"ypos"			"r20"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"20"
+		"fillcolor"		"TanLight"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"255"
+		"draw_corner_height" "11"
+	}
+	
+	"bgline"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bgline"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/replay/thumbnails/linebg_transparent"
+		"teambg_1"		"../vgui/replay/thumbnails/linebg_transparent"
+		"teambg_2"		"../vgui/replay/thumbnails/linebg_red_transparent"
+		"teambg_2_lodef"	"../vgui/replay/thumbnails/linebg_red_transparent"
+		"teambg_3"		"../vgui/replay/thumbnails/linebg_blu_transparent"
+		"teambg_3_lodef"	"../vgui/replay/thumbnails/linebg_blu_transparent"
+		"scaleImage"	"1"
+		"alpha"			"150"
+		"mouseinputenabled"	"0"
+	}	
+	
+	"TFMessageTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitle"
+		"xpos"			"c-210"
+		"ypos"			"80"
+		"zpos"			"1"
+		"wide"			"420"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"FuturaItalic28"
+		"fgcolor"		"QuestGold"
+	}	
+
+	"TextMessage"
+	{
+		"ControlName"	"TextEntry"
+		"fieldName"		"TextMessage"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"TFTextMessage"
+	{
+		"ControlName"	"CExRichText"
+		"fieldName"		"TFTextMessage"
+		"font"			"Futura12"
+		"xpos"			"c-208"
+		"ypos"			"125"
+		"zpos"			"1"
+		"wide"			"416"
+		"tall"			"240"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintborder"	"0"
+		"textAlignment"	"northwest"
+		"fgcolor"		"TanLight"
+	}
+
+	"Box1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Box1"
+		"xpos"			"c-210"
+		"ypos"			"75"
+		"zpos"			"0"
+		"wide"			"420"
+		"tall"			"295"
+		"fillcolor"		"TanDarkerTransparent"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"DarkComboBoxBorder"
+	}	
+	
+	"HTMLMessage"
+	{
+		"ControlName"		"HTML"
+		"fieldName"		"HTMLMessage"
+		"xpos"			"c-184"
+		"ypos"			"75"
+		"zpos"			"1"
+		"wide"			"415"
+		"tall"			"295"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"		"0"
+		"paintborder"	"0"
+	}
+	
+	"ok" //continue
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"ok"
+		"xpos"			"c-75"
+		"ypos"			"r100"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#TF_Continue"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"font"			"Futura20"
+	}
+	
+	"MenuBG"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"MenuBG"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"visible"		"0"
+		"enabled"		"0"
+	}						
+	
+	"MessageTitle"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"MessageTitle"
+		"visible"		"0"
+		"enabled"		"0"
+	}		
+}

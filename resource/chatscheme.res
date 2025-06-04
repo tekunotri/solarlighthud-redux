@@ -18,8 +18,8 @@ Scheme
 		// base colors
 		"White"				"235 226 202 255" //Is now tanlight
 		"OffWhite"			"235 226 202 255" //Is now tanlight
-		"DullWhite"			"142 142 142 255"
-		"Orange"			"255 213 0 255" //Is now yellow
+		"DullWhite"			"46 43 42 255" //Is now TanDarker
+		"Orange"			"178 82 22 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"46 43 42 255" //Is now TanDarker
 		"Green"				"63 185 73 255"
@@ -92,6 +92,7 @@ Scheme
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 
+		// Say :, apparently
 		Label.TextDullColor				"DullWhite"
 		Label.TextColor					"OffWhite"
 		Label.TextBrightColor				"White"
@@ -132,7 +133,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"Orange"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					15
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -141,8 +142,8 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.FgColor				"117 107 94 255"			// nob color
+		ScrollBarSlider.BgColor				"46 43 42 160"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -155,11 +156,11 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		Slider.NobColor				"TanDarker"
+		Slider.TextColor			"TanDark"
+		Slider.TrackColor			"TanDarker"
+		Slider.DisabledTextColor1	"TanDark"
+		Slider.DisabledTextColor2	"TanDarker"
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"
@@ -182,9 +183,7 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"	[$WIN32]
 		MainMenu.MenuItemHeight		"32"	[$X360]
@@ -197,12 +196,11 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"White"
-		TFColors.ChatTextTeamBlue	"0 106 161 255"
-		TFColors.ChatTextTeamRed	"161 0 0 255"
+		TFColors.ChatTextTeamBlue	"101 120 145 255"
+		TFColors.ChatTextTeamRed	"171 56 59 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -419,8 +417,10 @@ Scheme
 
 		FrameBorder
 		{
-			// rounded corners for frames
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/ColorTanDarkerTransparent"
 		}
 
 		DepressedBorder

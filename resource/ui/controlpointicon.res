@@ -1,6 +1,19 @@
 "Resource/UI/ControlPointIcon.res"
 {
 
+	"ControlPointIcon"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"ControlPointIcon"
+		"XPos"										"0"
+		"YPos"										"0"
+		"ZPos"										"2"
+		"Wide"										"24"
+		"Tall"										"24"
+		"Visible"									"1"
+		"Enabled"									"1"
+	}
+	
 	"ImageBorderLeft"
 	{
 		"ControlName"   "ImagePanel"           
@@ -169,7 +182,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"9"
+		"wide"			"13"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -180,6 +193,7 @@
 		"wrap"			"0"
 		"fgcolor_override"	"TanDark"
 		"font"			"Futura12"
+		"border" 		"NoBorder"
 	}
 				
 	"CPTimerBG"
@@ -192,8 +206,8 @@
 		"wide"		"66"
 		"tall"		"33"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
+		"enabled"		"0"
+		"image"			"replay/thumbnails/cp_icons/icon_obj_timer"	
 		"scaleImage"	"1"	
 	}
 }

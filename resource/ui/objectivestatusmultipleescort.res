@@ -17,7 +17,7 @@
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"BlueEscortPanel"
 		"xpos"				"c-108"
-		"ypos"				"r159"
+		"ypos"				"r147"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"150"
@@ -28,7 +28,7 @@
 		
 		"if_blue_is_top"
 		{
-			"ypos"				"r170"
+			"ypos"				"r158"
 		}
 	}
 
@@ -37,7 +37,7 @@
 		"ControlName"		"CTFHudEscort"
 		"fieldName"			"RedEscortPanel"
 		"xpos"				"c-108"
-		"ypos"				"r159"
+		"ypos"				"r147"
 		"zpos"				"1"
 		"wide"				"300"
 		"tall"				"150"
@@ -48,7 +48,7 @@
 		
 		"if_red_is_top"
 		{
-			"ypos"				"r170"
+			"ypos"				"r158"
 		}
 	}
 }

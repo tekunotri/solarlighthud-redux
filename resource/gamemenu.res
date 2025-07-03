@@ -67,11 +67,25 @@
 		"OnlyInGame"	"1"
 	}
 	
-	"UncletopiaButton"
+//	"UncletopiaButton"
+//	{
+//		"label"			"Uncletopia"
+//		"Command"		"url https://uncletopia.com/servers"
+//		"tooltip" 		"Uncletopia"
+//	}
+	
+	"SLHRStoreButton"
 	{
-		"label"			"Uncletopia"
-		"Command"		"url https://uncletopia.com/servers"
-		"tooltip" 		"Uncletopia"
+		"label"			"#MMenu_StoreHighlightPanel_Title"
+		"Command"		"engine open_store"
+		"tooltip" 		"#MMenu_StoreHighlightPanel_Title"
+	}
+	
+	"SLHRAchievementsButton"
+	{
+		"label"			"#MMenu_Tooltip_Achievements"
+		"Command"		"OpenAchievementsDialog"
+		"tooltip" 		"#MMenu_Tooltip_Achievements"
 	}
 	
 	"GithubButton"
@@ -87,5 +101,4 @@
 		"Command"		"url https://comfig.app/huds/page/solarlight-hud/"
 		"tooltip" 		"Comfig HUDs"
 	}
-	
 }

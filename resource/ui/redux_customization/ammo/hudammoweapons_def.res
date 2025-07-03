@@ -171,7 +171,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
-		
 	}	
 	"AmmoNoClipShadow"
 	{

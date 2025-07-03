@@ -38,11 +38,30 @@
 		"fgcolor_override"	"CreditsGreen"
 	}
 	
+	"VSBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"VSBG"
+		"xpos"			"cs-0.5"
+		"xpos"			"cs-0.5"
+		"ypos"			"16"
+		"zpos"			"-10"
+		"wide"			"60"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
+		"scaleImage"	"1"	
+		"proportionaltoparent"	"1"
+	}	
+	
+	
+	
 	"blueteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-70"
+		"xpos"			"c-65"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"
@@ -91,7 +110,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c10"
+		"xpos"			"c5"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"60"

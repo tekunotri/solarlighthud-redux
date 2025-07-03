@@ -5075,6 +5075,46 @@ Scheme
 			"image"					"replay/thumbnails/bgshapes/SHAPES_RESERVE_AMMO_BG"
 		}
 		
+		CartPushArrowBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bgshapes/SHAPES_CART_PUSH_BG"
+		}
+		
+		OctagonBGBLU
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_BLU"
+		}
+		
+		OctagonBGRED
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_RED"
+		}
+		
+		OctagonBGTANDARK
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_TANDARK"
+		}
+		
+		OctagonBGTANDARKER
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bgshapes/SHAPES_OCTAGON_BG_TANDARKER"
+		}
+		
 		SolarPassTimeCarrierPanel
 		{
 			"bordertype"			"scalable_image"

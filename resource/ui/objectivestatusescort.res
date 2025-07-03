@@ -15,6 +15,17 @@
 		"progress_wide"		"270"
 	}
 	
+	"EscortHilightSwoop" //bye
+	{
+		"ControlName" "CControlPointIconSwoop"
+		"fieldName" "EscortHilightSwoop"
+		"xpos"			"9999"
+		"ypos"			"20"
+		"zpos"			"5"
+		"wide"			"20"
+		"tall"			"100"
+		"alpha"			"0"
+	}
 	"LevelBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -70,78 +81,35 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"59"	
-		"ypos"			"111"
-		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"28"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		""
-		"image"			"../hud/cart_home_blue"
-		"scaleImage"	"1"	
-		
-		"if_team_red"
-		{
-			"image"			"../hud/cart_home_red"
-		}
-		
-		"if_single_with_hills_blue"
-		{
-			"image"			"../hud/cart_home_blue_opaque"
-		}		
-		
-		"if_single_with_hills_red"
-		{
-			"image"			"../hud/cart_home_red_opaque"
-		}		
-		
-		"if_multiple_trains"
-		{
-			"xpos"			"59"
-			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
-		}
-		
-		"if_multiple_trains_top"
-		{
-			"ypos"			"113"
-		}
-		
-		"if_multiple_trains_bottom"
-		{
-			"ypos"			"113"
-		}
-		
-		"if_multiple_trains_red"
-		{
-			"image"			"../hud/cart_home_red_square"
-		}
-		
-		"if_multiple_trains_blue"
-		{
-			"image"			"../hud/cart_home_blue_square"
-		}
 	}
 	
 	"SolarHomeIcon"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SolarHomeIcon"
-		"xpos"			"0"			
-		"ypos"			"113"
-		"zpos"			"3"
+		"xpos"			"1"			
+		"ypos"			"112"
+		"zpos"			"100"
 		"wide"			"16"
-		"tall"			"15"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_ico_flag_home"	
+		"image"			"replay/thumbnails/icons/cart_home"	
 		"scaleImage"		"1"	
+		
+		"if_multiple_trains_top"
+		{
+			"xpos"			"0"		
+			"ypos"			"118"
+		}
+		
+		"if_multiple_trains_bottom"
+		{
+			"xpos"			"0"		
+			"ypos"			"107"
+		}
 	}	
 	
 	"SolarHomeIconBG"
@@ -155,8 +123,8 @@
 		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"fillcolor"			"TanLight"
@@ -167,11 +135,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"66"		
+		"xpos"			"64"		
 		"ypos"			"123"
 		"zpos"			"1"
-		"wide"			"3"	
-		"tall"			"3"
+		"wide"			"6"	
+		"tall"			"6"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -188,7 +156,7 @@
 		
 		"if_multiple_trains_bottom"
 		{
-			"ypos"			"114"
+			"ypos"			"9999"
 		}
 	}
 
@@ -208,12 +176,12 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"HudFontSmallest"			
-			"xpos"			"212"
-			"ypos"			"15"
+			"font"			"SLBoldSmall"			
+			"xpos"			"209"
+			"ypos"			"8"
 			"zpos"			"4"
-			"wide"			"18"
-			"tall"			"10"
+			"wide"			"23"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -234,62 +202,51 @@
 			}
 		}
 		
-		"EscortItemImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"EscortItemImage"	
-			"xpos"			"208"
+		"RecedeTime2"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"RecedeTime2"
+			"font"			"SLBoldSmallStroke"			
+			"xpos"			"209"
 			"ypos"			"8"
-			"zpos"			"3"
-			"wide"			"25"
-			"tall"			"25"
+			"zpos"			"4"
+			"wide"			"23"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"image"			"replay/thumbnails/solar_payload_neutral"
-			"scaleImage"	"1"
+			"enabled"		"0"
+			"labelText"		"%recede%"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"		
+			"disabledfgcolor2_override"	"TanDarker"
 			
-			"if_team_blue"
+			"if_multiple_trains_top"
 			{
-				"image"			"replay/thumbnails/solar_payload_blu"
-			}		
+				"ypos"			"15"
+			}										
 			
-			"if_team_red"
+			"if_multiple_trains_bottom"
 			{
-				"image"			"replay/thumbnails/solar_payload_red"
-			}						
+				"ypos"			"45"
+			}
+		}
+		
+		"EscortItemImage" //payload cart image, disabled
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"EscortItemImage"	
+			"visible"		"0"
+			"enabled"		"0"					
 		}
 		
 		"EscortItemImageBottom"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageBottom"	
-			"xpos"			"208"
-			"ypos"			"38"
-			"zpos"			"3"
-			"wide"			"25"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"image"			"replay/thumbnails/solar_payload_neutral_bottom"
-			"scaleImage"	"1"
-			
-			"if_team_blue"
-			{
-				"image"			"replay/thumbnails/solar_payload_blu_bottom"
-			}		
-			
-			"if_team_red"
-			{
-				"image"			"replay/thumbnails/solar_payload_red_bottom"
-			}		
+			"enabled"		"0"		
 		}
 		
 		"SolarProgressBar"
@@ -326,7 +283,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageAlert"	
 			"xpos"			"-4"
-			"ypos"			"38"
+			"ypos"			"9999" //previously 38
 			"zpos"			"0"
 			"wide"			"60"
 			"tall"			"30"
@@ -344,18 +301,18 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
-			"xpos"			"216"
-			"ypos"			"18"
+			"xpos"			"211"
+			"ypos"			"12"
 			"zpos"			"4"
-			"wide"			"8"
-			"tall"			"8"			
+			"wide"			"16"
+			"tall"			"16"			
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"image"			"replay/thumbnails/cart_arrow_left"
+			"image"			"replay/thumbnails/icons/cart_leftarrow"
 			"scaleImage"	"1"	
 			
 			"if_multiple_trains_top"
@@ -398,17 +355,17 @@
 			}
 		}
 
-		"CapNumPlayers"
+		"CapNumPlayers" //can be used for art arrow?
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"HudFontSmallest"
-			"xpos"			"235"
-			"ypos"			"15"
+			"font"			"SLBoldSmall"
+			"xpos"			"208"
+			"ypos"			"9"
 			"zpos"			"4"
-			"wide"			"18"
-			"tall"			"10"
-			"autoResize"	"0"
+			"wide"			"30"
+			"tall"			"17"
+			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -416,6 +373,9 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"	
+			"disabledfgcolor2_override" "SolarTeamBLU"
+			"insetx"		"0"
+			"border"		"CartPushArrowBG"
 			
 			"if_multiple_trains_top"
 			{
@@ -424,7 +384,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"45"
+				"ypos"			"43"
 			}
 		}
 		
@@ -432,11 +392,11 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
-			"xpos"			"215"
-			"ypos"			"16"
+			"xpos"			"212"
+			"ypos"			"8"
 			"zpos"			"5"
-			"wide"			"11"
-			"tall"			"11"
+			"wide"			"16"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -445,15 +405,16 @@
 			"labelText"		""
 			"image"			"../hud/cart_blocked"
 			"scaleImage"	"1"	
+			"border"		"NoBorder"
 
 			"if_multiple_trains_top"
 			{
-				"ypos"			"16"
+				"ypos"			"14"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"46"
+				"ypos"			"43"
 			}
 		}
 	

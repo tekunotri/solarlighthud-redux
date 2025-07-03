@@ -123,7 +123,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuicksettingsLabel"
 			"font"			"FuturaItalic16"
-			"labelText"		"QUICK-SETTINGS"
+			"labelText"		"#Customization_Quicksettings_Title"
 			"textAlignment"	"center"
 			"xpos"			"cs-0.5"
 			"ypos"			"230"
@@ -136,6 +136,7 @@
 			"enabled"		"1"
 			"textinsetx"	"5"
 			"centerwrap"	"1"
+			"allcaps"		"1"
 			"fgcolor_override"	"TFOrange"
 		}
 		
@@ -154,6 +155,120 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}	
+		
+		"ToggleMinmodeButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ToggleMinmodeButton"
+			"font"			"FuturaItalic20"
+			"labelText"		"Toggle Minmode"
+			"textAlignment"	"center"
+			"xpos"			"cs-0.5"
+			"ypos"			"260"
+			"zpos"			"-8"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"command"			"engine toggle cl_hud_minmode 0 1"
+			"actionsignallevel" 	"2"
+			"paintbackgroundtype" 	"0"
+			"roundedcorners"		"0"
+			"stay_armed_on_click"	"1"
+
+			"sound_armed"		"ui/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"visible"		"0"
+				"enabled"		"0"
+
+				"proportionaltoparent"	"1"
+			}	
+		}
+		
+		"ToggleMatchHUDButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"ToggleMatchHUDButton"
+			"font"			"FuturaItalic20"
+			"labelText"		"Toggle Match HUD"
+			"textAlignment"	"center"
+			"xpos"			"cs-0.5"
+			"ypos"			"282"
+			"zpos"			"-8"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"command"			"engine toggle tf_use_match_hud 0 1"
+			"actionsignallevel" 	"2"
+			"paintbackgroundtype" 	"0"
+			"roundedcorners"		"0"
+			"stay_armed_on_click"	"1"
+
+			"sound_armed"		"ui/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"visible"		"0"
+				"enabled"		"0"
+
+				"proportionaltoparent"	"1"
+			}	
+		}
+		
+		"Toggle3DModelButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Toggle3DModelButton"
+			"font"			"FuturaItalic20"
+			"labelText"		"Toggle 3D Class Model"
+			"textAlignment"	"center"
+			"xpos"			"cs-0.5"
+			"ypos"			"304"
+			"zpos"			"-8"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"command"			"engine toggle cl_hud_playerclass_use_playermodel 0 1"
+			"actionsignallevel" 	"2"
+			"paintbackgroundtype" 	"0"
+			"roundedcorners"		"0"
+			"stay_armed_on_click"	"1"
+
+			"sound_armed"		"ui/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"visible"		"0"
+				"enabled"		"0"
+
+				"proportionaltoparent"	"1"
+			}	
+		}
 
         // ===============================================
         "ExpandableChooseYourHUD" 
@@ -370,18 +485,119 @@
 					"proportionaltoparent"	"1"
 				}
 
-                "seperatorline_4"
-                {
-                    "ControlName"	"ImagePanel"
-                    "fieldName"		"seperatorline_4"
-                    "xpos"      "cs-0.5"
-                    "ypos"      "412"
-                    "zpos"		"0"
-                    "wide"		"280"
-                    "tall"		"0"
-                    "visible"	"1"
-                    "proportionaltoparent"		"1"
-                }
+				"DefaultHPAmmoButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DefaultHPAmmoButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"DefaultHPAmmo"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"46"
+					"zpos"			"11"
+					"wide"			"200"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine DefaultHPAmmo"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage"
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+						"enabled"		"0"
+
+						"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"CenterHPAmmoButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"CenterHPAmmoButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"CenterHPAmmo"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"68"
+					"zpos"			"11"
+					"wide"			"200"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine CenterHPAmmo"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage"
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+						"enabled"		"0"
+
+						"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"ClassicHPAmmoButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"ClassicHPAmmoButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"ClassicHPAmmo"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"90"
+					"zpos"			"11"
+					"wide"			"200"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine ClassicHPAmmo"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage"
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+						"enabled"		"0"
+
+						"proportionaltoparent"	"1"
+					}	
+				}
                 // ================================================
             }
         } //end expandable CHOOSE YOUR HUD
@@ -1212,8 +1428,8 @@
 				"tall"			"40"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"textinsetx"	"5"
 				"centerwrap"	"1"
 				"fgcolor_override"	"TanLight"
@@ -1234,12 +1450,28 @@
 				"tall"			"40"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"textinsetx"	"5"
 				"centerwrap"	"1"
 				"fgcolor_override"	"TanDarker"
 				"proportionaltoparent"		"1"
+			}
+			
+			"SLHUDLOGO"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SLHUDLOGO"
+				"xpos"			"cs-0.5"
+				"ypos"			"c-150"
+				"zpos"			"9"
+				"wide"			"300"
+				"tall"			"150"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/logo"
+				"scaleImage"	"1"	
+				"proportionalToParent"	"1"
 			}
 
 			"CreditsListLabel"
@@ -1253,7 +1485,7 @@
 				"ypos"			"c0"
 				"zpos"			"10"
 				"wide"			"550"
-				"tall"			"70"
+				"tall"			"100"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

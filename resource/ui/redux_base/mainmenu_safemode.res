@@ -285,7 +285,7 @@
             "proportionaltoparent"	"1"
             
             "collapsed_height"		"40"
-            "expanded_height"		"380" //change this
+            "expanded_height"		"390" //change this
             
             "ignorescheme"			"1"
             
@@ -356,7 +356,7 @@
 				"xpos"			"0"
 				"ypos"			"40"
 				"zpos"			"2"
-				"wide"			"546"
+				"wide"			"550"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
@@ -373,9 +373,9 @@
 				"fgcolor_override"	"loop_primary"
 				"proportionaltoparent"	"1"
 				
-				"defaultBgColor_override" "0 0 0 160"
-				"armedBgColor_override" "100 0 0 160"
-				"depressedBgColor_override" "0 0 0 160"
+				"defaultBgColor_override" "41 41 41 255"
+				"armedBgColor_override" "100 41 41 255"
+				"depressedBgColor_override" "41 41 41 255"
 				
 				"image_drawcolor"   "235 226 202 255"
 				"image_armedcolor"  "TFOrange"
@@ -403,18 +403,16 @@
                 "ControlName"	"CScrollableList"
                 "fieldName"		"OptionList"
                 "xpos"			"0"
-                "ypos"			"40"
+                "ypos"			"60"
                 "wide"			"550"
-                "tall"			"320" //change this
+                "tall"			"300" //change this
                 "visible"		"1"
                 "enabled"		"1"
 
                 "allow_mouse_wheel_to_scroll"   "1"
-                // "scroll_step"                   "50"
+                "scroll_step"                   "50"
                 "restrict_width"                "1"
-                
-
-                "border"        "MainMenuButtonDefault"
+                "bgcolor_override"	"TanDarker"
 
                 "ScrollBar"
                 {
@@ -446,23 +444,6 @@
                     }
                 }
 				
-				"BelowDarken" //TanDark background I added
-				{
-					"ControlName"	"EditablePanel"
-					"fieldname"		"BelowDarken"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"0"
-					"wide"			"f0"
-					"tall"			"420"
-					"visible"		"1"	
-					"PaintBackgroundType"	"0"
-					"proportionaltoparent"	"1"
-					"mouseinputenabled"	"0"
-
-					"bgcolor_override"	"TanDarker"
-				}
-				
 				"PresetWarning"
 				{
 					"ControlName"	"CExLabel"
@@ -471,7 +452,7 @@
 					"labelText"		"#Preset_Overwrite_Warning"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"25"
+					"ypos"			"5"
 					"zpos"			"10"
 					"wide"			"550"
 					"tall"			"22"
@@ -493,10 +474,10 @@
 					"labelText"		"DefaultHPAmmo"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"46"
+					"ypos"			"26"
 					"zpos"			"11"
-					"wide"			"200"
-					"tall"			"20"
+					"wide"			"400"
+					"tall"			"225"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine DefaultHPAmmo"
@@ -512,14 +493,20 @@
 					"fgcolor_override"	"TanLight"
 					"proportionaltoparent"	"1"
 					
-					"SubImage"
+					"SubImage" //notification count image
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"visible"		"0"
-						"enabled"		"0"
-
-						"proportionaltoparent"	"1"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDDefault"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
 					}	
 				}
 				
@@ -531,10 +518,10 @@
 					"labelText"		"CenterHPAmmo"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"68"
+					"ypos"			"256"
 					"zpos"			"11"
-					"wide"			"200"
-					"tall"			"20"
+					"wide"			"400"
+					"tall"			"225"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine CenterHPAmmo"
@@ -550,14 +537,20 @@
 					"fgcolor_override"	"TanLight"
 					"proportionaltoparent"	"1"
 					
-					"SubImage"
+					"SubImage" //notification count image
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"visible"		"0"
-						"enabled"		"0"
-
-						"proportionaltoparent"	"1"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDCenter"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
 					}	
 				}
 				
@@ -569,10 +562,10 @@
 					"labelText"		"ClassicHPAmmo"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"90"
+					"ypos"			"486"
 					"zpos"			"11"
-					"wide"			"200"
-					"tall"			"20"
+					"wide"			"400"
+					"tall"			"225"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine ClassicHPAmmo"
@@ -588,14 +581,20 @@
 					"fgcolor_override"	"TanLight"
 					"proportionaltoparent"	"1"
 					
-					"SubImage"
+					"SubImage" //notification count image
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"visible"		"0"
-						"enabled"		"0"
-
-						"proportionaltoparent"	"1"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDClassic"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
 					}	
 				}
                 // ================================================
@@ -735,15 +734,16 @@
                 "ControlName"	"CExScrollingEditablePanel"
                 "fieldName"		"OptionList"
                 "xpos"			"0"
-                "ypos"			"40"
+                "ypos"			"60"
                 "wide"			"550"
-                "tall"			"275"  //change this
+                "tall"			"255"  //change this
                 "visible"		"1"
                 "enabled"		"1"
 
                 "allow_mouse_wheel_to_scroll"   "1"
- //               "scroll_step"                   "50"
+ //              "scroll_step"                   "50"
                 "restrict_width"                "1"
+                "bgcolor_override"	"TanDarker"
                 
                 "border"        "MainMenuButtonDefault"
 
@@ -778,23 +778,6 @@
                         "visible"		"0"
                     }
                 }
-				
-				"BelowDarken" //TanDark background I added
-				{
-					"ControlName"	"EditablePanel"
-					"fieldname"		"BelowDarken"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"0"
-					"wide"			"f0"
-					"tall"			"400"
-					"visible"		"1"	
-					"PaintBackgroundType"	"0"
-					"proportionaltoparent"	"1"
-					"mouseinputenabled"	"0"
-
-					"bgcolor_override"	"TanDarker"
-				}
 				
 				"CustomizationWarning"
 				{
@@ -966,15 +949,16 @@
                 "ControlName"	"CExScrollingEditablePanel"
                 "fieldName"		"OptionList"
                 "xpos"			"0"
-                "ypos"			"40"
+                "ypos"			"60"
                 "wide"			"550"
-                "tall"			"230" //change this
+                "tall"			"210" //change this
                 "visible"		"1"
                 "enabled"		"1"
 
                 "allow_mouse_wheel_to_scroll"   "1"
  //               "scroll_step"                   "50"
                 "restrict_width"                "1"
+                "bgcolor_override"	"TanDarker"
                 
                 "border"        "MainMenuButtonDefault"
 
@@ -1009,23 +993,6 @@
                         "visible"		"0"
                     }
                 }
-				
-				"BelowDarken" //TanDark background I added
-				{
-					"ControlName"	"EditablePanel"
-					"fieldname"		"BelowDarken"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"0"
-					"wide"			"f0"
-					"tall"			"400"
-					"visible"		"1"	
-					"PaintBackgroundType"	"0"
-					"proportionaltoparent"	"1"
-					"mouseinputenabled"	"0"
-
-					"bgcolor_override"	"TanDarker"
-				}
 				
 				"GamemodesNote"
 				{
@@ -1237,6 +1204,18 @@
 				"mouseinputenabled"	"0"
 			}	
 			
+			"Chalkboard"
+			{
+				"ControlName"    "CDrawingPanel"
+				"xpos"				"0"
+				"ypos"            	"50"
+				"zpos"				"10"
+				"wide"				"f0"
+				"tall"				"f0"
+				"bgcolor_override"	"0 0 0 0"
+				"linecolor"			"255 255 255 255"
+			}
+			
 			"TopBarOverlay1" //TanDark second top bar
 			{
 				"ControlName"	"EditablePanel"
@@ -1298,7 +1277,7 @@
 				"labelText"		""
 				"xpos"			"0"
 				"ypos"			"50"
-				"zpos"			"10"
+				"zpos"			"12"
 				"wide"			"f0"
 				"tall"			"20"
 				"visible"		"1"
@@ -1502,10 +1481,10 @@
                 "ControlName"	"CExScrollingEditablePanel"
                 "fieldName"		"OptionList"
                 "xpos"			"0"
-                "ypos"			"20"
+                "ypos"			"40"
 				"zpos"			"10"
                 "wide"			"f0"
-                "tall"			"tto" //change this
+                "tall"			"550" //change this
                 "visible"		"1"
                 "enabled"		"1"
 

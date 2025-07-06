@@ -125,6 +125,17 @@
 		}
 	}	
 	
+	"ChatPin"
+	{
+		"ControlName"    "Panel"
+		"xpos"            "10"
+		"ypos"            "240"
+	}
+	"partychat"
+	{
+		"pin_to_sibling"    "ChatPin"
+	}
+
 	"MapVoteAnchor"
 	{
 		"controlname"    "panel"

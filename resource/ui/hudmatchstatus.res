@@ -8,7 +8,73 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
+	
+	"PostGameTopBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PostGameTopBar"
+		"xpos"			"0"
+		"ypos"			"-55" //0
+		"zpos"			"12"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"PostGameBottomBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PostGameBottomBar"
+		"xpos"			"0"
+		"ypos"			"r-5" //r50
+		"zpos"			"12"
+		"wide"			"f0"
+		"tall"			"50"
+		"fillcolor"		"Black"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
+	"PostGameBGLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PostGameBGLine"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-130"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/linebg_transparent"
+		"scaleImage"	"1"
+		"alpha"			"0" //100
+		"mouseinputenabled"	"0"
+	}	
 
+	"PostGameBGColor"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PostGameBGColor"
+		"xpos"			"0"
+		"ypos"			"0" //0
+		"zpos"			"-131"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"TanDarker"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"alpha"			"0"
+	}	
+	
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
@@ -62,7 +128,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Futura36"
+		"font"			"SLBoldMedium"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +142,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"SaleGreen"
 
 		if_readymode
 		{
@@ -89,9 +155,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"Futura36"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"font"			"SLBoldMediumStroke"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.01"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -102,7 +168,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"TanDarker"
 		"proportionaltoparent"	"1"
 
 	
@@ -754,7 +820,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 
 		if_large

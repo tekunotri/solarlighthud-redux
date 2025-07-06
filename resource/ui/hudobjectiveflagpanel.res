@@ -130,14 +130,15 @@
 		"xpos"			"c-125"
 		"ypos"			"r50"
 		"zpos"			"8"
-		"wide"			"75"
+		"wide"			"80"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Futura32"
+		"font"			"SLBoldMedium"
 		"fgcolor"		"SolarTeamBLU"
+		"textinsetx"	"10"
 		
 		"if_hybrid"
 		{
@@ -164,15 +165,47 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"c-125"
+		"ypos"			"r50"
+		"zpos"			"8"
+		"wide"			"80"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%bluescore%"
+		"font"			"SLBoldMediumStroke"
+		"fgcolor"		"TanDarker"
+		"textinsetx"	"10"
+		"border"		"NoBorder"
+		"auto_wide_tocontents"	"0"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
 	}	
-							
+
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c50"
+		"xpos"			"c45"
 		"ypos"			"r50"
 		"zpos"			"8"
 		"wide"			"75"
@@ -181,8 +214,9 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Futura32"
+		"font"			"SLBoldMedium"
 		"fgcolor"		"SolarTeamRED"		
+		"textinsetx"	"10"
 		
 		"if_hybrid"
 		{
@@ -209,9 +243,39 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
+		"xpos"			"c45"
+		"ypos"			"r50"
+		"zpos"			"8"
+		"wide"			"75"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"labelText"		"%redscore%"
+		"font"			"SLBoldMediumStroke"
+		"fgcolor"		"TanDarker"		
+		"textinsetx"	"10"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}
 	
 	"SolarScoreBox"
 	{
@@ -225,9 +289,9 @@
 		"fillcolor"		"TanDarkerTransparent"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		
 		"if_hybrid"
 		{
@@ -249,7 +313,42 @@
 			"visible"	"0"
 		}
 	}	
-															
+	
+	"SolarCTFScoreBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"SolarCTFScoreBG"
+		"xpos"			"c-65"
+		"ypos"			"r48"
+		"zpos"			"-98"
+		"wide"			"130"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
+		"scaleImage"	"1"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_no_flags"
+		{
+			"visible"	"0"
+		}
+	}	
+
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -380,7 +479,7 @@
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-54"
 		"ypos"			"r60"	[$WIN32]
-		"zpos"			"5"
+		"zpos"			"10"
 		"wide"			"54"
 		"tall"			"90"
 		"visible"		"1"
@@ -420,7 +519,7 @@
 		"fieldName"		"RedFlag"
 		"xpos"			"c0"
 		"ypos"			"r60"	[$WIN32]
-		"zpos"			"5"
+		"zpos"			"10"
 		"wide"			"54"
 		"tall"			"90"
 		"visible"		"1"
@@ -504,7 +603,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Futura24"
+		"font"			"SLBoldSmall"
 		"fgcolor"		"TanLight"
 	}
 	

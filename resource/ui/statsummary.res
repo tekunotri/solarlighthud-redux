@@ -137,7 +137,7 @@
 			"xpos"			"15"
 			"ypos"			"155"
 			"zpos"			"2"
-			"wide"			"275"
+			"wide"			"400"
 			"tall"			"30"
 			"textinsetx"	"10"
 			"autoResize"	"0"

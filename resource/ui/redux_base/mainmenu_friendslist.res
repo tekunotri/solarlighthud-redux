@@ -6,7 +6,7 @@
 	{
 		"ControlName"			"CMatchHistoryEntryPanel"
 		"xpos"					"c-290"
-		"ypos"					"237"
+		"ypos"					"239"
 		"zpos"					"6"
 		"wide"					"260"
 		"tall"					"190"
@@ -87,7 +87,7 @@
 				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"235"
-				"tall"			"32"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -113,7 +113,7 @@
 				"zpos"			"501"
 				"wide"			"f10"
 				"tall"			"110"
-				"visible"		"1"	
+				"visible"		"0"	
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -121,6 +121,24 @@
 				"paintborder"	"1"
 				"border"		"InnerShadowBorder"
 			}
+			
+			"SHAPES_FRIENDSLIST_WITH_OUTLINE"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SHAPES_FRIENDSLIST_WITH_OUTLINE"
+				"xpos"			"cs-0.5"
+				"ypos"			"60"
+				"zpos"			"499"
+				"wide"			"f0"
+				"tall"			"150"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/SHAPES_FRIENDSLIST_WITH_OUTLINE"
+				"scaleImage"	"1"
+				"alpha"			"255"
+				"mouseinputenabled"	"0"
+				"proportionaltoparent"	"1"
+			}	
 
 			"SteamFriendsList"
 			{
@@ -178,23 +196,6 @@
 						"visible"		"0"
 					}
 				}
-			}
-
-			"BelowDarken"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"BelowDarken"
-				"xpos"			"cs-0.5"
-				"ypos"			"80"
-				"zpos"			"499"
-				"wide"			"f10"
-				"tall"			"110"
-				"visible"		"1"	
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"bgcolor_override"	"0 0 0 100"
 			}
 		}
 	} //end expandable friendslist

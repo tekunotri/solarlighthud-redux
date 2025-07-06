@@ -2,11 +2,11 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"130"
+		"xpos"			"156"
 
 		"if_killstreak_visible"
 		{
-			"xpos"			"130"
+			"xpos"			"156"
 		}
 	}
 			
@@ -16,6 +16,22 @@
 		"fieldName"		"ItemEffectMeterBG"
 		"visible"		"0"
 		"enabled"		"0"		
+	}
+	
+	"BackgroundNew"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundNew"
+		"xpos"			"15"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/pd/pd_timer_bg_normal"
+		"scaleImage"	"1"	
+		"proportionalToParent"	"1"
 	}
 	
 	"Spellbook"
@@ -33,11 +49,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"16"
-		"ypos"			"35"
+		"xpos"			"18"
+		"ypos"			"34"
 		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
+		"wide"			"23"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -64,13 +80,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
+		"font"			"SLBoldMediumStroke"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"38"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"42"
+		"ypos"			"33"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"25"
 		"fgcolor"		"TanDarker"
 	}
 	
@@ -78,13 +95,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
+		"font"			"SLBoldMedium"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
-		"ypos"			"37"
-		"wide"			"20"
-		"tall"			"19"
+		"xpos"			"42"
+		"ypos"			"33"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"25"
 		"fgcolor"		"TanLight"
 	}
 }

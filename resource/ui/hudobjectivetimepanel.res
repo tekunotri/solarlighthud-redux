@@ -49,12 +49,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"138"
-		"ypos"			"53"
+		"xpos"			"cs-0.5"
+		"ypos"			"38"
 		"zpos"			"5"
-		"wide"			"128"
-		"wide"			"128"
-		"tall"			"32"
+		"wide"			"64"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
@@ -64,7 +63,8 @@
 		"wrap"			"0"
 		"font"			"Futura10"
 		"fgcolor_override"	"TanLight"
-		"border"		"SolarPassTimeCarrierPanel"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
 		
 		if_match
 		{
@@ -74,13 +74,20 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
-		
+		"xpos"			"cs-0.5"	[$WIN32]
+		"ypos"			"39"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"21"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/timer/setuppanel"	
+		"scaleImage"		"1"	
+		"proportionaltoparent"	"1"
+
 		if_match
 		{
+			"wide"	"100"
 		}
 	}
 	"OvertimeLabel"
@@ -88,7 +95,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"12"

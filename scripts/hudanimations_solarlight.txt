@@ -184,29 +184,17 @@ event RDPositiveScorePulse
 	Animate ScoreBLU FgColor	"25 255 25 255"		Linear 0.0 0.0
 	Animate ScoreBLU FgColor	"SolarTeamBLU"			Linear 0.1 0.2
 
-	Animate ScoreBLU Position	"0 -5"		Deaccel 0.0 0.05
-	Animate ScoreBLU Position	"0 0"		Accel 0.05 0.2
-
 	Animate ScoreRED FgColor	"25 255 25 255"		Linear 0.0 0.0
 	Animate ScoreRED FgColor	"SolarTeamRED"			Linear 0.1 0.2
-	
-	Animate ScoreRED Position	"0 -5"		Deaccel 0.0 0.05
-	Animate ScoreRED Position	"0 0"		Accel 0.05 0.2
 }
 
 event RDNegativeScorePulse
 {
 	Animate ScoreBLU FgColor	"255 75 75 255"		Linear 0.0 0.0
 	Animate ScoreBLU FgColor	"SolarTeamBLU"			Linear 0.1 0.2
-
-	Animate ScoreBLU Position	"0 -5"		Deaccel 0.0 0.05
-	Animate ScoreBLU Position	"0 0"		Accel 0.05 0.2
 	
 	Animate ScoreRED FgColor	"255 75 75 255"		Linear 0.0 0.0
 	Animate ScoreRED FgColor	"SolarTeamRED"			Linear 0.1 0.2
-
-	Animate ScoreRED Position	"0 -5"		Deaccel 0.0 0.05
-	Animate ScoreRED Position	"0 0"		Accel 0.05 0.2
 }
 
 

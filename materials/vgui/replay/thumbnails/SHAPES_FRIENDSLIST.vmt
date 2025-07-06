@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/cart_arrow_right"
+	"$basetexture" "vgui/replay/thumbnails/SHAPES_FRIENDSLIST"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1

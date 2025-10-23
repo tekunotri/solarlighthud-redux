@@ -1,5 +1,41 @@
 "Resource/UI/disguise_menu/scout_blue.res"
 {
+	//this is here for team color
+	"TitleBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"TitleBG"
+		"xpos"						"0"
+		"ypos"						"10"
+		"zpos"						"-11"
+		"wide"						"f0"
+		"tall"						"18"
+		"visible"					"1"
+		"enabled"					"1"
+		"proportionaltoparent"		"1"
+		"paintbackground"			"1"
+		"paintbackgroundtype"		"2"
+		"roundedcorners"			"0"
+		"bgcolor_override"			"SolarTeamREDDark"
+
+		"BottomLine"
+		{
+			"ControlName"			"Panel"
+			"fieldName"				"BottomLine"
+			"xpos"					"0"
+			"ypos"					"rs1"
+			"zpos"					"1"
+			"wide"					"f0"
+			"tall"					"2"
+			"visible"				"1"
+			"enabled"				"1"
+			"proportionaltoparent"	"1"
+			"paintbackground"		"1"
+			"paintbackgroundtype"	"0"
+			"bgcolor_override"		"0 0 0 35"
+		}
+	}
+
 	"ItemNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -25,7 +61,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassIcon"
 		"xpos"			"15"
-		"ypos"			"0"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -50,6 +86,7 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
+	//controls number in concise disguise method
 
 	"NewNumberLabel"
 	{
@@ -57,8 +94,8 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Futura16"
 		"fgcolor"		"White"
-		"xpos"			"0"
-		"ypos"			"3"
+		"xpos"			"-3"
+		"ypos"			"43"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
@@ -71,15 +108,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
-
+	//controls number in normal disguise method
 	"NumberLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Futura16"
 		"fgcolor"		"White"
-		"xpos"			"0"
-		"ypos"			"3"
+		"xpos"			"-3"
+		"ypos"			"43"
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"

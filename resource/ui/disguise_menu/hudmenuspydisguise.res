@@ -1,6 +1,5 @@
 //this file and everything related to it is a pain to work with.
-//todo: add some way to recognize team color (maybe a banner above disguise text)
-//todo: find out why some icons are missing in first game load/spy spawn
+//* note: the disguise banner colors are controlled by scout_blue/red.res in the same folders.
 "Resource/UI/disguise_menu/HudMenuSpyDisguise.res"
 {
 	"MainBackground"
@@ -9,26 +8,6 @@
 		"fieldName"		"MainBackground"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-
-	"teambg"	//might be removed. testing....
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"teambg"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"10"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"drawcolor"		"255 255 255 255"
-		"teambg_1"		"replay/thumbnails/ColorTanDarkTransparent"
-		"teambg_2"		"replay/thumbnails/ColorREDTransparent"
-		"teambg_3"		"replay/thumbnails/ColorBLUTransparent"
-		"scaleImage"		"1"
 	}
 	"NewBG"
 	{
@@ -62,7 +41,7 @@
 		"font"			"Futura20"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"11"
 		"wide"			"60"
 		"tall"			"38"
 		"autoResize"	"0"
@@ -123,18 +102,18 @@
 		"brighttext"	"0"
 	}
 	//positioning reference
-	//row 1: xpos 5, ypos 40/70/100
+	//row 1: xpos 5, ypos 40/70/100 EXCEPT FOR SCOUT
 	//rows 2/3 xpos +50 from last row
 	//scout soldier pyro
 	"class_item_red_1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_1"
-		"xpos"			"5"
-		"ypos"			"40"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"96"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 	}
 
@@ -142,11 +121,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_1"
-		"xpos"			"5"
-		"ypos"			"40"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"96"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 	}
 
@@ -154,7 +133,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_2"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -166,7 +145,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_2"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -179,7 +158,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_3"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -192,7 +171,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_3"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -205,7 +184,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_4"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"96"
@@ -218,7 +197,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_4"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"96"
@@ -230,7 +209,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_5"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -243,7 +222,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_5"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -256,7 +235,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_6"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -269,7 +248,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_6"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -282,7 +261,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_7"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"96"
@@ -295,7 +274,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_7"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"96"
@@ -308,7 +287,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_8"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -321,7 +300,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_8"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"96"
@@ -334,7 +313,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_9"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -347,7 +326,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_9"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"100"
 		"zpos"			"2"
 		"wide"			"96"
@@ -378,7 +357,7 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Futura16"
 		"fgcolor"		"White"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"73"
 		"zpos"			"5"
 		"wide"			"15"
@@ -415,7 +394,7 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Futura16"
 		"fgcolor"		"White"
-		"xpos"			"55"
+		"xpos"			"50"
 		"ypos"			"72"
 		"zpos"			"5"
 		"wide"			"15"
@@ -452,7 +431,7 @@
 		"fieldName"		"NumberLabel"
 		"font"			"Futura16"
 		"fgcolor"		"White"
-		"xpos"			"105"
+		"xpos"			"100"
 		"ypos"			"73"
 		"zpos"			"5"
 		"wide"			"15"

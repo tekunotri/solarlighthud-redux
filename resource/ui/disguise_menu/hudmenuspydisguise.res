@@ -10,15 +10,21 @@
 		"enabled"		"0"
 	}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	"NewBG"
 	{
 		"ControlName"	"ImagePanel"
 =======
+=======
+>>>>>>> Stashed changes
 
 	
 	"NewBG"
 	{
 		"ControlName"	"CExLabel"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		"fieldName"		"NewBG"
 		"xpos"			"0"	[$WIN32]
@@ -26,11 +32,22 @@
 		"zpos"			"0"
 		"wide"			"f0"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bgtransparent"
 		"scaleImage"		"1"
+=======
+		"tall"			"f16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"border"		"BorderTanDarkerCornersVerySmall"
+		"proportionaltoparent"	"1"
+>>>>>>> Stashed changes
 =======
 		"tall"			"f16"
 		"autoResize"	"0"
@@ -85,8 +102,13 @@
 		"fieldName"		"ToggleLabel"
 		"font"			"Default"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"xpos"			"5"
 		"ypos"			"25"
+=======
+		"xpos"			"0"
+		"ypos"			"27"
+>>>>>>> Stashed changes
 =======
 		"xpos"			"0"
 		"ypos"			"27"

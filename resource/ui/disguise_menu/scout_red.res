@@ -6,75 +6,20 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"TitleBG"
 		"xpos"						"0"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-		"ypos"						"10"
-		"zpos"						"-11"
-		"wide"						"f0"
-		"tall"						"18"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 		"ypos"						"14"
 		"zpos"						"-11"
 		"wide"						"f0"
 		"tall"						"14"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 		"visible"					"1"
 		"enabled"					"1"
 		"proportionaltoparent"		"1"
 		"paintbackground"			"1"
 		"paintbackgroundtype"		"2"
 		"roundedcorners"			"0"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-		"bgcolor_override"			"SolarTeamREDDark"
-
-		"BottomLine"
-		{
-			"ControlName"			"Panel"
-			"fieldName"				"BottomLine"
-			"xpos"					"0"
-			"ypos"					"rs1"
-			"zpos"					"1"
-			"wide"					"f0"
-			"tall"					"2"
-			"visible"				"1"
-			"enabled"				"1"
-			"proportionaltoparent"	"1"
-			"paintbackground"		"1"
-			"paintbackgroundtype"	"0"
-			"bgcolor_override"		"0 0 0 35"
-		}
-	}
-
-	"ItemNameLabel"
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 		"bgcolor_override"			"SolarTeamRED"
 	}
 
 	"DisguiseLabel"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseLabel"
@@ -94,9 +39,27 @@
 		"brighttext"	"0"
 	}
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+	"DisguiseLabelStroke"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DisguiseLabelStroke"
+		"font"			"SLBoldMediumSmallerStroke"
+		"xpos"			"0"
+		"ypos"			"6"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_Menu_Disguise_Title"
+		"textAlignment"	"north"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"SolarTeamRED"
+	}
+
 	"ClassIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -112,96 +75,6 @@
 		"image"			"../hud/leaderboard_class_scout"
 	}
 
-=======
-	"DisguiseLabelStroke"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DisguiseLabelStroke"
-		"font"			"SLBoldMediumSmallerStroke"
-		"xpos"			"0"
-		"ypos"			"6"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"SolarTeamRED"
-	}
-
-=======
-	"DisguiseLabelStroke"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DisguiseLabelStroke"
-		"font"			"SLBoldMediumSmallerStroke"
-		"xpos"			"0"
-		"ypos"			"6"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"SolarTeamRED"
-	}
-
->>>>>>> Stashed changes
-=======
-	"DisguiseLabelStroke"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DisguiseLabelStroke"
-		"font"			"SLBoldMediumSmallerStroke"
-		"xpos"			"0"
-		"ypos"			"6"
-		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"SolarTeamRED"
-	}
-
->>>>>>> Stashed changes
-	"ClassIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ClassIcon"
-		"xpos"			"15"
-		"ypos"			"40"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/leaderboard_class_scout"
-	}
-
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	"NumberBg"
 	{
 		"ControlName"	"CIconPanel"

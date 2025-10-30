@@ -6,6 +6,7 @@
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
-	"$color"            "{180 92 77}"
+	"$color"            "{235 226 202}"
+	"$alpha"	"0.8"
 }
 

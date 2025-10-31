@@ -75,9 +75,9 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED_SMALLER"	
-		"teambg_2"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED_SMALLER"
-		"teambg_3"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_BLU_SMALLER"
+		"image"			"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED"	
+		"teambg_2"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED"
+		"teambg_3"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_BLU"
 	}
 
 	"classmodelpanelBG"
@@ -94,9 +94,9 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED_SMALLER"	
-		"teambg_2"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED_SMALLER"
-		"teambg_3"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_BLU_SMALLER"
+		"image"			"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED"	
+		"teambg_2"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_RED"
+		"teambg_3"		"replay/thumbnails/bgshapes/SHAPES_CLASS_BG_BLU"
 	}
 
 	"classmodelpanel"

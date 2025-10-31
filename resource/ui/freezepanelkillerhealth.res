@@ -103,15 +103,15 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"Futura16"
-		"fgcolor"		"TanLight"
+		"font"			"SLMaxHP"
+		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
-		"xpos"			"12"
-		"ypos"			"21"	[$WIN32]
+		"xpos"			"11"
+		"ypos"			"20"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"41"
 		"tall"			"18"
@@ -120,7 +120,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"Futura16"
+		"font"			"SLMaxHPEXTREMESTROKE"
 		"fgcolor"		"TanDarker"
 	}	
 }

@@ -1,21 +1,4 @@
-#base "redux_base/HudItemEffectMeter_meter_base.res"
+#base "../../cfg/redux_customization/redux_meterposition.txt"
+#base "huditemeffectmeter_#middle.res"
 
-"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
-{
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"ypos"			"r75"
-	}
-	
-	"ItemEffectMeterLabelNew"
-	{
-		"fieldName"				"ItemEffectMeterLabelNew"
-		"labelText"				"#TF_Mangler"
-	}
-	"ItemEffectMeterLabelOutline"
-	{
-		"fieldName"				"ItemEffectMeterLabelOutline"
-		"labelText"				"#TF_Mangler"
-	}
-}
+#base "huditemeffectmeter_base.res"

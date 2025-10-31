@@ -1,4 +1,3 @@
-//todo later down the line: move this to a _base for logbasing purposes (modifying meter positions based on hud style selected?)
 "Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter

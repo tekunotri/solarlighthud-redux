@@ -1,14 +1,17 @@
 //used for demoman eyelander head count and airstrike heads
 "Resource/UI/HudItemEffectMeter_demoman.res"
 {
+	//* TEMPORARY POSITION, will change later -techno
+	//*	default positions pre-this update are in hudmeters_classic.res in redux_customization folder
+
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"c-145"	[$WIN32]
-		"ypos"			"c119"	[$WIN32]
+		"xpos"			"63"	//temp
+		"ypos"			"r60"	//temp
 		"wide"			"70"
 		"tall"			"22"
 		"MeterFG"		"White"
@@ -28,6 +31,21 @@
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_demoknight.vtf"
 		"scaleImage"	"1"
+	}
+	"BackgroundNew"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundNew"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/pd/pd_timer_bg_normal"
+		"scaleImage"	"1"	
+		"proportionalToParent"	"1"
 	}
 
 	"ItemEffectMeterCount"

@@ -16,22 +16,50 @@
 		"settitlebarvisible"	"0"
 	}
 	
-	"BGDarken"
+	"CustomShaderOverlay"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"fillcolor"		"0 0 0 195"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-10000"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/sepia"
+	}
+	
+	"DX8MenuDarken"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX8MenuDarken"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-18"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "235"
+		"image" "replay/thumbnails/shaders/DX8MenuDarken"
+		"scaleimage" "1"
+	}
+	
+	"DX9MenuDarken"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX9MenuDarken"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-11"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/shaders/DX9MenuDarken"
+		"scaleimage" "1"
 	}
 	
 	"BGHeader"
@@ -86,7 +114,7 @@
 		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-2"
+		"zpos"			"-13"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -164,7 +192,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"BorderTanDarkerCornersTransparentVerySmall"
+		"border"		"BorderTanDarkerCornersVerySmall"
 	}	
 	
 	"HTMLMessage"

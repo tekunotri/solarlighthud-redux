@@ -41,7 +41,7 @@
 		"drawcolor"     "128 128 128 255"    
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/blank"
 		"teambg_1"		"replay/thumbnails/blank"
@@ -50,42 +50,52 @@
 		"alpha"			"170"
 	}
 		
-	"BGDarken"
+	"CustomShaderOverlay"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BGDarken"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"f0"
-		"tall"			"f0"
-		"fillcolor"		"0 0 0 150"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-10000"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/sepia"
 	}
 	
-	"BGBrighten"
+	"DX8MenuDarken"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGBrighten"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"f0"
-		"tall"			"f0"
-		"fillcolor"		"TanLightTransparent"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"alpha"			"50"
-		"draw_corner_height" "11"
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX8MenuDarken"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-8"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "240"
+		"image" "replay/thumbnails/shaders/DX8MenuDarken"
+		"scaleimage" "1"
 	}
 	
+	"DX9MenuDarken"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX9MenuDarken"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-11"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/shaders/DX9MenuDarken"
+		"scaleimage" "1"
+	}
+
 	"BGClasses"
 	{
 		"ControlName"	"ImagePanel"
@@ -170,9 +180,9 @@
 		"teambg_3"		"replay/thumbnails/linebg_blu_transparent"
 		"teambg_3_lodef"	"replay/thumbnails/linebg_blu_transparent"
 		"scaleImage"	"1"
-		"alpha"			"255"
+		"alpha"			"150"
 		"mouseinputenabled"	"0"
-	}	
+	}
 	
 	"class"
 	{

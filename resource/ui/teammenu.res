@@ -15,6 +15,35 @@
 		"tabPosition"	"0"
 	}
 	
+	"CustomShaderOverlay"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"		    "0"
+		"ypos"		    "0"
+		"zpos"		    "-10000"
+		"wide"		    "f0"
+		"tall"		    "480"
+		"scaleimage"	"1"
+		"image"			"replay/thumbnails/shaders/sepia"
+	}
+	
+	"DX9MenuDarken"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "DX9MenuDarken"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-11"
+		"wide" "f0"
+		"tall" "f0"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/shaders/DX9MenuDarken"
+		"scaleimage" "1"
+	}
+	
 	"bggradient"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -27,7 +56,7 @@
 		"drawcolor"     "128 128 128 255"    
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/gradient_red"
 		"teambg_1"		"replay/thumbnails/gradient_red"
@@ -35,7 +64,7 @@
 		"teambg_3"		"replay/thumbnails/gradient_blue"
 		"alpha"			"170"
 	}
-	
+
 	"BGHeader"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -88,7 +117,7 @@
 		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-12"
+		"zpos"			"-13"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -111,7 +140,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"f30"
+		"wide"			"550"
 		"tall"			"280"
 		"fillcolor"		"0 0 0 0"
 		"autoResize"	"0"

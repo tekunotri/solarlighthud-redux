@@ -251,18 +251,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "TanLight"
 	}
 
 	
@@ -270,16 +262,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
-		"zpos"			"2"
-		"wide"			"610"
-		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
 	}				
 	
 	"classmodelpanel"

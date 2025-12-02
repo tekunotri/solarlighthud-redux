@@ -124,17 +124,6 @@
 			}
 		}
 	}	
-	
-	"ChatPin"
-	{
-		"ControlName"    "Panel"
-		"xpos"            "10"
-		"ypos"            "270"
-	}
-	"partychat"
-	{
-		"pin_to_sibling"    "ChatPin"
-	}
 
 	"MapVoteAnchor"
 	{
@@ -1717,6 +1706,92 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	
+
+
+	"ServerBrowserButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ServerBrowserButton"
+		"xpos"			"c-277"
+		"ypos"			"172"
+		"wide"			"235"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldMedium"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"command"		"OpenServerBrowser"
+		"labeltext"		"#MMenu_Servers"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+		"paintbackground"	"1"
+		"allcaps"			"1"
+		
+		"border_default"	""
+		"border_armed"		""		
+		
+		"image_drawcolor"	"235 226 202 255"
+		
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+		
+		"defaultFgColor_override" "SaleGreen"
+		"armedFgColor_override" "CreditsGreen"
+		"depressedfgColor_override" "White" //clicked on
+		"image_drawcolor"	"CreditsGreen"
+		"image_armedcolor"	"SaleGreen"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"27"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"
+			"image"			"glyph_items"
+		}		
+	}
+	
+	"ServerBrowserButtonOutline"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerBrowserButton"
+		"xpos"			"c-277"
+		"ypos"			"172"
+		"zpos"			"-1"
+		"wide"			"235"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldMediumStroke"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"labeltext"		"#MMenu_Servers"
+		"proportionaltoparent"	"1"
+		"paintbackground"	"1"
+		"allcaps"			"1"
+		"fgcolor_override"	"TanDarker"
+	}
 
 	"CharacterSetupButton"
 	{

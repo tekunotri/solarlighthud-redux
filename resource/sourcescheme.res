@@ -194,8 +194,7 @@ Scheme
 			"1"
 			{
 				"name"		"futura_extra_black_italic"
-				"tall"		"35"
-				"tall_lodef"	"40"
+				"tall"		"25"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -207,7 +206,7 @@ Scheme
 			"1"
 			{
 				"name"		"futura_extra_black_italic"
-				"tall"		"30"
+				"tall"		"25"
 				"weight"	"0"
 				"antialias"	"1"
 			}

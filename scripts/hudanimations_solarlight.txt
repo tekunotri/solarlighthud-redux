@@ -1,3 +1,12 @@
+//Implement auto-skip map movie
+
+event IntroMovieContinueBlinkStop
+{
+	StopEvent IntroMovieContinueBlink			0.0
+	StopEvent IntroMovieContinueBlinkLoop 		0.0
+	FireCommand 0.0    "skip"
+}
+
 //Disable deathcam snapshot reminder
 
 event HudSnapShotReminderIn

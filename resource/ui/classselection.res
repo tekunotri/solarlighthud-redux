@@ -70,7 +70,7 @@
 		"enabled" "1"
 		"xpos" "0"
 		"ypos" "0"
-		"zpos" "-8"
+		"zpos" "-13"
 		"wide" "f0"
 		"tall" "f0"
 

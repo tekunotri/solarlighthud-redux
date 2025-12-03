@@ -5,102 +5,16 @@
 		"fieldName"				"MMDashboard"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"cs-0.5"
+		"xpos"					"0"
 		"ypos"					"-5"
-		"zpos"					"-3"
-		"wide"					"f0"
-		"tall"					"340"
+		"zpos"					"10000"
+		"wide"					"440"
+		"tall"					"35"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"340"
+		"expanded_height"	"35"
 		"resize_time"		"0.0"
-	}
-
-	"FindAGameButton2"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"FindAGameButton2"
-		"xpos"			"c-277"
-		"ypos"			"160"
-		"zpos"			"-99"
-		"wide"			"235"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"SLItalicVeryLarge"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"find_game"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#MMenu_Play"
-		"mouseinputenabled"	"1"
-		"keyboardinputenabled"	"0"
-		"actionsignallevel"	"2"
-		"roundedcorners"	"0"
-		"textinsety"	"0"
-		"textinsetx"	"25"
-		"use_proportional_insets"	"0"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-		
-		"defaultFgColor_override" "SaleGreen"
-		"armedFgColor_override" "CreditsGreen"
-		"depressedfgColor_override" "White" //clicked on
-		"image_drawcolor"	"CreditsGreen"
-		"image_armedcolor"	"SaleGreen"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"117"
-			"ypos"			"8"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"0"
-			"image"			"glyph_multiplayer"
-		}
-	}
-	
-	"FindAGameButtonOutline" //needs a new outline font
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"FindAGameButtonOutline"
-		"xpos"			"c-277"
-		"ypos"			"160"
-		"zpos"			"-100"
-		"wide"			"235"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"SLItalicVeryLargeStroke"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#MMenu_Play"
-		"roundedcorners"	"0"
-		"textinsety"	"0"
-		"textinsetx"	"25"
-		"use_proportional_insets"	"0"
-		"fgcolor_override"	"TanDarker"
 	}
 		
 	"TopBar"
@@ -145,7 +59,7 @@
 			"xpos"			"-10"
 			"ypos"			"0"
 			"zpos"			"-2"
-			"wide"			"198"
+			"wide"			"228"
 			"tall"			"32"
 			"fillcolor"		"0 0 0 0"
 			"autoResize"	"0"
@@ -153,6 +67,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"BorderTanDarkerCornersVerySmall"
+			"proportionaltoparent"	"1"
 		}	
 
 		"OuterShadow"
@@ -349,7 +264,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"cs-0.5"
+			"xpos"			"r220"
 			"ypos"			"-50"
 			"zpos"			"111"
 			"wide"			"220"
@@ -672,18 +587,18 @@
 			}
 		}
 
-		"QuitButton"
+		"QuitButton" //used to move find a game button. is set to 0 width to be impossible to click
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"QuitButton"
-			"xpos"			"9999" //gtfo
-			"ypos"			"9999"
+			"xpos"			"215"  //displays off grid, moves find game button to right side
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
+			"wide"			"0"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"font"			"HudFontSmallBold"
@@ -691,49 +606,28 @@
 			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
+			"actionsignallevel"	"0"
 			"RoundedCorners"	"0"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"armedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"
 
-			"armedBgColor_override"		"SolarMenuRed"
-			"defaultBgColor_override"	"SolarMenuRedDarker"
+			"defaultFgColor_override" "Blank"
+			"armedFgColor_override" "Blank"
 
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
+			"image_drawcolor"	"Blank"
+			"image_armedcolor"	"Blank"
 		}
 
-		"DisconnectButton"
+		"DisconnectButton" //used to move find a game button while in a match. is set to 0 width to be impossible to click
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"DisconnectButton"
-			"xpos"			"rs1"
+			"xpos"			"215"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"0"
@@ -792,10 +686,10 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ResumeButton"
-			"xpos"			"rs1-16-131"
+			"xpos"			"rs0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"120"
+			"wide"			"0"
 			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -813,11 +707,10 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"3"
+			"textinsety"	"5"
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
-			
-			"sound_armed"		"UI/buttonrollover.wav"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -847,36 +740,35 @@
 			}
 		}
 
-		"FindAGameButton"
+		"FindAGameButton" //this is pinned to quit button?
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"9999" //gtfo
-			"ypos"			"9999"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"0" //GTFO
-			"tall"			"0"
+			"wide"			"29"
+			"tall"			"29"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Verdana"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#MMenu_Play"
+			"labeltext"		" "
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"2"
+			"textinsety"	"3"
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
-			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -892,11 +784,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.36"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"

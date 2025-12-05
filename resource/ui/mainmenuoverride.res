@@ -498,7 +498,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/linebg_transparent"
 		"scaleImage"	"1"
-		"alpha"			"100"
 		"mouseinputenabled"	"0"
 	}	
 	

@@ -102,7 +102,7 @@
 		"fieldName"		"bggradient"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-12"
+		"zpos"			"-11"
 		"wide"			"f-20"
 		"tall"			"f-20"
 		"drawcolor"     "128 100 75 255"    
@@ -111,14 +111,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"training/gradient_black"
-		"alpha"			"230"
+		"alpha"			"250"
 		"proportionaltoparent"	"1"
 	}
 	
 	"bgpanel"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"bgpanel"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
+	
+	"bgline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-13"
@@ -126,11 +134,10 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
-		"alpha"			"100"
 		"mouseinputenabled"	"0"
-	}	
+	}		
 
 	"BLUTint"
 	{
@@ -138,7 +145,7 @@
 		"fieldName"		"BLUTint"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-14"
+		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
 		"fillcolor"		"SolarTeamBLU"

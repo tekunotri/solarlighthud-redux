@@ -117,6 +117,25 @@
 		"enabled"		"1"
 	}
 	
+	"bggradient"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"bggradient"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-11"
+		"wide"			"f-20"
+		"tall"			"f-20"
+		"drawcolor"     "128 100 75 255"    
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"training/gradient_black"
+		"alpha"			"250"
+		"proportionaltoparent"	"1"
+	}
+	
 	"CenterBar"
 	{
 		"ControlName"	"ImagePanel"
@@ -134,30 +153,18 @@
 		"proportionaltoparent"	"1"
 	}	
 	
-	
-	"bggradient"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"bggradient"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-12"
-		"wide"			"f-20"
-		"tall"			"f-20"
-		"drawcolor"     "128 100 75 255"    
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"training/gradient_black"
-		"alpha"			"230"
-		"proportionaltoparent"	"1"
-	}
-	
 	"bgpanel"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"bgpanel"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
+	
+	"bgline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bgline"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-13"
@@ -165,9 +172,8 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/linebg_transparent"
+		"image"			"replay/thumbnails/linebg_tandarker_bigger_overlay"
 		"scaleImage"	"1"
-		"alpha"			"100"
 		"mouseinputenabled"	"0"
 	}	
 
@@ -177,7 +183,7 @@
 		"fieldName"		"BLUTint"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-14"
+		"zpos"			"-15"
 		"wide"			"p0.5"
 		"tall"			"f0"
 		"fillcolor"		"SolarTeamBLU"
@@ -194,7 +200,7 @@
 		"fieldName"		"REDTint"
 		"xpos"			"c0"
 		"ypos"			"0"
-		"zpos"			"-14"
+		"zpos"			"-15"
 		"wide"			"p0.5"
 		"tall"			"f0"
 		"fillcolor"		"SolarTeamRED"

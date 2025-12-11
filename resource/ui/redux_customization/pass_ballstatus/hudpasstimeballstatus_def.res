@@ -14,7 +14,7 @@
 // 	PIN_CENTER_LEFT,
 // };
 
-"resource/ui/hudpasstimeballstatus.res"
+"Resource/UI/HudPasstimeBallStatus.res"
 {	
 	"HudPasstimeBallStatus"
 	{
@@ -41,7 +41,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		""
-		"image"			"replay/thumbnails/passtime_ballcontrol_bar"
+		"image"			"replay/thumbnails/passtime_ballcontrol_bar_meme_vs_meta"
 		"scaleImage"	"1"
 	}
 		

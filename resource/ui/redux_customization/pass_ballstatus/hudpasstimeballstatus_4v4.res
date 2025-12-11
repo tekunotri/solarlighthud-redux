@@ -14,7 +14,7 @@
 // 	PIN_CENTER_LEFT,
 // };
 
-"resource/ui/hudpasstimeballstatus.res"
+"Resource/UI/HudPasstimeBallStatus.res"
 {	
 
 	"HudPasstimeBallStatus"
@@ -75,8 +75,8 @@
 		"xpos"			"c-162"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -94,8 +94,8 @@
 		"xpos"			"c-132"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -113,8 +113,8 @@
 		"xpos"			"c-102"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -133,8 +133,8 @@
 		"xpos"			"c146"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -152,8 +152,8 @@
 		"xpos"			"c116"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -172,8 +172,8 @@
 		"xpos"			"c86"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

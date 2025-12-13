@@ -23,7 +23,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"0"
+		"ypos"			"47"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"200"
@@ -36,7 +36,7 @@
 		"proportionaltoparent"	"1"
 		"font"			"Futura40"
 
-		"text_ypos"		"15"
+		"text_ypos"		"2"
 		"text_center"	"0"
 		"paint_icon_hide" "1"
 		"model_hide"	"1"
@@ -52,6 +52,27 @@
 		}
 	}
 	
+	"BGHeader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGFooter"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"40"
+		"fillcolor"		"TanDark"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"consume_mode"
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"bg"
 	{
 		"ControlName"	"ImagePanel"
@@ -61,13 +82,11 @@
 		"zpos"			"-15"
 		"wide"			"f0"
 		"tall"			"f0"
+		"fillcolor"		"TanDarker"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/menu_bg/background_diamond_looping_small"
-		"scaleImage"	"0"
-		"tileImage"	"1"
-		"mouseinputenabled"	"0"
-		"drawcolor"     "200 150 255 255"  
 		
 		"consume_mode"
 		{
@@ -91,6 +110,27 @@
 		"enabled"		"1"
 		"image"			"training/gradient_black"
 		"alpha"			"230"
+		"proportionaltoparent"	"1"
+		
+		"consume_mode"
+		{
+			"visible"	"0"
+		}
+	}
+	
+	"ModelBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ModelBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-14"
+		"wide"			"600"
+		"tall"			"300"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"border"		"BorderTanDarkerCornersVerySmall"
 		"proportionaltoparent"	"1"
 		
 		"consume_mode"
@@ -327,6 +367,27 @@
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"f0"
+			"tall"			"28"
+			"fillcolor"		"TanDark"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			
+			"consume_mode"
+			{
+				"visible"	"0"
+			}
+		}
+		
+		"BGFooterBlack"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BGFooterBlack"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"f0"
 			"tall"			"f0"
 			"fillcolor"		"0 0 0 200"
 			"autoResize"	"0"
@@ -561,7 +622,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"NewSeedButton"
 			"xpos"			"35"
-			"ypos"			"10"
+			"ypos"			"5"
 			"zpos"			"10"
 			"wide"			"20"
 			"tall"			"20"
@@ -624,7 +685,7 @@
 			"ControlName"	"TextEntry"
 			"fieldName"		"SeedTextEntry"
 			"xpos"			"63"
-			"ypos"			"10"
+			"ypos"			"5"
 			"fixed_item"
 			{
 				"ypos"		"50"
@@ -657,7 +718,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MarketButton"
 			"xpos"			"10"
-			"ypos"			"10"
+			"ypos"			"5"
 			"zpos"			"100"
 			"wide"			"20"
 			"tall"			"20"

@@ -31,24 +31,14 @@ event HudTournament_ShowRoundSign
 	Animate NewRoundBeginsStroke alpha 0 Accel 3 0.5
 }
 
-//disable casual mode door animations on match start
+//disable casual mode door animations on match start, immediately hide the CountdownLabels
 
 event HudTournament_MoveTimerDown
 {
-	Animate CountdownLabel ypos 150 Linear 0 0
-	Animate CountdownLabelShadow ypos 150 Linear 0 0
+//	SetVisibleTournamentConditionLabel 0 2 //for comp matchmaking? not supporting this anyway
 
-	SetVisible CountdownBG 0 5
-	SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabelShadow 1 0
-
-	Animate CountdownLabel ypos c-3 Gain 0.75 0 0.4
-	Animate CountdownLabelShadow ypos c0 Gain 0.75 0 0.4
-
-	SetVisible	TournamentConditionLabel 0 2
-
-	SetVisible CountdownLabel 0 3
-	SetVisible CountdownLabelShadow 0 3
+	SetVisible CountdownLabel 0 0
+	SetVisible CountdownLabelShadow 0 0
 }
 
 event HudTournament_AnimateTeams_In
@@ -449,7 +439,11 @@ event HudMatchStatus_ShowMatchWinDoors
 }
 	
 
-//CASUAL MDOE GAME WIN, DOORS CLOSE AND DO NOT RE-OPEN
+//CASUAL MODE GAME WIN, DOORS CLOSE AND DO NOT RE-OPEN
+//We do cleanup after 25 seconds though, just enough leeway for a map change
+//This could still be a problem if someone rejoins a server basically 1 frame after this animation starts, but this is not common
+//May consider changing this for a temporary screen-fill transition animation instead, then place a bg in hudmatchsummary instead
+
 event HudMatchStatus_ShowMatchWinDoors_NoOpen
 {
 	SetVisible	PostGameTopBar	1	0
@@ -466,6 +460,12 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 	Animate PostGameBottomBar ypos r50 Deaccel 0 1.5
 	Animate PostGameBGLine alpha 255 Spline 0 1.5
 	Animate PostGameBGColor alpha 255 Spline 0 1.5
+	
+	//Cleanup, again
+	Animate PostGameTopBar ypos -55 Linear 30 0
+	Animate PostGameBottomBar ypos r-5 Linear 30 0
+	Animate PostGameBGLine alpha 0 Linear 25 0
+	Animate PostGameBGColor alpha 0 Linear 25 0
 }
 
 event HudTournament_DoorsCleanup

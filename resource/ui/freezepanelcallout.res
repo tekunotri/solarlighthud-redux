@@ -11,16 +11,16 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/borders/border_tandarker_corners"
 		"scaleImage"		"1"	
-		"teambg_2"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
-		"teambg_3"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
+		"teambg_2"		"replay/thumbnails/borders/border_blu_corners"	// Reversed, due to showing killer's name
+		"teambg_3"		"replay/thumbnails/borders/border_red_corners"	// Reversed, due to showing killer's name
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"19"				// pixels inside the image
+		"src_corner_width"		"19"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"		
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 	}
 	"ArrowIcon"
 	{

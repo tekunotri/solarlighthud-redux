@@ -29,7 +29,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_demoknight.vtf"
+		"image"			"../hud/leaderboard_class_demoknight"
 		"scaleImage"	"1"
 	}
 	"BackgroundNew"

@@ -4,6 +4,6 @@
 {
 	"EyelanderIcon"
 	{
-		"image"			"../hud/leaderboard_class_engineer.vtf"
+		"image"			"../hud/leaderboard_class_engineer"
 	}
 }

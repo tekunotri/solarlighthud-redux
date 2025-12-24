@@ -5,6 +5,6 @@
 {
 	"EyelanderIcon"
 	{
-		"image"			"../hud/leaderboard_class_medic.vtf"
+		"image"			"../hud/leaderboard_class_medic"
 	}
 }

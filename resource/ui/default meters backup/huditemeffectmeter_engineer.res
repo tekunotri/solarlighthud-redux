@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_engineer.vtf"
+		"image"			"../hud/leaderboard_class_engineer"
 		"scaleImage"	"1"				
 	}
 	

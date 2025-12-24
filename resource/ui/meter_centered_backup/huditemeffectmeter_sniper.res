@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_sniper.vtf"
+		"image"			"../hud/leaderboard_class_sniper"
 		"scaleImage"	"1"				
 	}
 	

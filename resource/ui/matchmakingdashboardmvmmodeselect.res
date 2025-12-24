@@ -189,7 +189,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"image"			"illustrations/gamemode_rottenburg_medic.vtf"
+			"image"			"illustrations/gamemode_rottenburg_medic"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}

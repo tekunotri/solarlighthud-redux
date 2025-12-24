@@ -19,7 +19,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_medic.vtf"
+		"image"			"../hud/leaderboard_class_medic"
 		"scaleImage"	"1"				
 	}
 	

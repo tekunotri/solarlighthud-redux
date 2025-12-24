@@ -1,6 +1,6 @@
 //Counter for: PowerUp Canteen in MvM
 //reuses demoman stuff due to me being lazy and both being the same thing in a way -techno
-#base "../../cfg/redux_customization/redux_counterposition.txt"
+#base "../../../../cfg/redux_customization/redux_counterposition.txt"
 
 #base "huditemeffectmeter_demoman_base.res"
 

@@ -224,21 +224,58 @@
 		"enabled"		"1"
 	}	
 	
-	"bgline"
+	"bglineblu"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"bgline"
+		"fieldName"		"bglineblu"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"p0.5"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/linebg_blu"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+	}	
+	
+	"bglinered"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bglinered"
+		"xpos"			"0"
+		"ypos"			"c0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"p0.5"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/linebg_red"
 		"scaleImage"	"1"
 		"alpha"			"255"
 		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+	}	
+	
+	"bggap"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bggap"
+		"xpos"			"0"
+		"ypos"			"-10"
+		"zpos"			"-98"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu_bg/mann_co_store_gap_horizontal"
+		"scaleImage"	"1"
+		"alpha"			"255"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
 	}	
 	
 	"bggradient"

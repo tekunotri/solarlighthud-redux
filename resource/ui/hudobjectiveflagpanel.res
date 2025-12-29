@@ -277,43 +277,6 @@
 		}
 	}
 	
-	"SolarScoreBox"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SolarScoreBox"
-		"xpos"			"c-75"
-		"ypos"			"r48"
-		"zpos"			"-98"
-		"wide"			"150"
-		"tall"			"30"
-		"fillcolor"		"TanDarkerTransparent"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_minmode"	"0"
-		"enabled"		"0"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-		
-		"if_no_flags"
-		{
-			"visible"	"0"
-		}
-	}	
-	
 	"SolarCTFScoreBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -511,6 +474,12 @@
 		"if_no_flags"
 		{
 			"visible"	"0"
+		}
+		
+		"StatusIcon"
+		{
+			"ControlName"	"CTFImaggePanel"
+			"fieldName"		"StatusIcon"
 		}
 	}
 			

@@ -108,7 +108,7 @@
 		"auto_wide_tocontents"	"1"
 		"centerwrap"	"0"
 		"textinsetx"	"8"
-		"textAlignment"	"north"
+		"textAlignment"	"north-west"
 		"border"	"BorderTanDarkerCornersTransparentVerySmall"
 		
 		"pin_to_sibling"	"PlayingToAnchor"

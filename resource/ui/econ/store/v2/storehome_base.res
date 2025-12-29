@@ -40,13 +40,13 @@
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
-		"item_backdrop_paintbackgroundtype"	"2"
+		"item_backdrop_paintbackgroundtype"	"0"
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"Black"
+		"item_panel_bgcolor_mouseover"	"80 80 80 255"
+		"item_panel_bgcolor_selected"	"White"
 		
 		"classicon_xdelta"		"5"
 
@@ -61,7 +61,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 						
 			"model_xpos"	"24"
@@ -117,7 +117,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"2"
@@ -169,7 +169,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
@@ -367,7 +367,7 @@
 		"selectedFgColor_override"	"White"
 		"depressedBgColor_override" "80 80 80 255"
 		"depressedFgColor_override"	"White"
-		"disabledfgcolor2_override"	"128 128 128 255"
+		"disabledfgcolor2_override"	"80 80 80 255"
 	}		
 	
 	"CurPageLabel"
@@ -420,7 +420,7 @@
 		"selectedFgColor_override"	"White"
 		"depressedBgColor_override" "80 80 80 255"
 		"depressedFgColor_override"	"White"
-		"disabledfgcolor2_override"	"128 128 128 255"
+		"disabledfgcolor2_override"	"80 80 80 255"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -439,7 +439,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor"	"White"
 	}
 	
 	"CartButton"
@@ -456,7 +456,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
@@ -466,8 +466,8 @@
 		
 		"defaultFgColor_override"         "White"
 		"defaultBgColor_override"         "Black"
-		"armedFgColor_override"           "Black"
-		"armedBgColor_override"           "White"
+		"armedFgColor_override"           "White"
+		"armedBgColor_override"           "80 80 80 255"
 		"selectedBgColor_override" "80 80 80 255"
 		"selectedFgColor_override"	"White"
 		"depressedBgColor_override" "80 80 80 255"

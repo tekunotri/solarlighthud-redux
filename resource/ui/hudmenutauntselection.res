@@ -32,27 +32,49 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
+	"ReduxTauntBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReduxTauntBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"90"
+		"zpos"			"-2"
+		"wide"			"420"
+		"tall"			"70"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"proportionaltoparent"	"1"
+
+		"paintborder"	"1"
+		"border"		"BorderTanDarkerCornersVerySmall"
+		"border_minmode"		"BorderTanDarkerCornersTransparentVerySmall"	
+	}
+	
 	"TauntModelPanel1"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel1"
-		"xpos"			"17"
-		"ypos"			"85"
+		"xpos"			"c-205"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -62,7 +84,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -92,23 +116,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel2"
-		"xpos"			"73"
-		"ypos"			"85"
+		"xpos"			"c-155"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-
-		"model_ypos"	"5"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
+			
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -118,7 +146,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -148,23 +178,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel3"
-		"xpos"			"127"
-		"ypos"			"85"
+		"xpos"			"c-105"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -174,7 +208,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -205,23 +241,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel4"
-		"xpos"			"182"
-		"ypos"			"85"
+		"xpos"			"c-55"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -231,7 +271,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -261,23 +303,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel5"
-		"xpos"			"237"
-		"ypos"			"85"
+		"xpos"			"c-5"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -287,7 +333,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -317,23 +365,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel6"
-		"xpos"			"292"
-		"ypos"			"85"
+		"xpos"			"c45"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -343,7 +395,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -373,23 +427,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel7"
-		"xpos"			"347"
-		"ypos"			"85"
+		"xpos"			"c95"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -399,7 +457,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}
@@ -429,23 +489,27 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"TauntModelPanel8"
-		"xpos"			"402"
-		"ypos"			"85"
+		"xpos"			"c145"
+		"ypos"			"-30" //intentionally cut off the unusual effect icon
 		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
+		"paintborder"	"0"
+		"proportionaltoparent"	"1"
 			
-		"model_ypos"	"5"
+		"model_ypos"	"154"
 		"model_tall"	"38"
-		"text_ypos"		"46"
+		"text_ypos"		"130"
 		"text_center"	"1"
 		"text_forcesize"	"3"
-		"model_only"		"1"
+		"model_only"		"0"
+		"name_only"		"1"
+		"paint_icon_hide"	"1"
+		"hide_modifier_icons"	"0"
 			
 		"attriblabel"
 		{
@@ -455,7 +519,9 @@
 			
 		"itemmodelpanel"
 		{
+			"inventory_image_type"	"1"
 			"use_item_rendertarget" "0"
+            "useparentbg"        "1"
 			"allow_rot"				"0"
 		}
 	}

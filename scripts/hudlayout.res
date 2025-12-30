@@ -1167,7 +1167,6 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
-		"ypos_lodef"				"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1451,7 +1450,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-45"
+		"ypos"			"r170"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"

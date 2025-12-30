@@ -569,6 +569,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bgshapes/SHAPES_HP_BG"
 		"scaleImage"	"1"	
+		"drawcolor"		"TanDarker"
 	}
 	
 	"countImage0" [$WIN32]

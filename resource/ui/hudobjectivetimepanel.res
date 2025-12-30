@@ -13,10 +13,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 	
-        "image"                 "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"	
-        "teambg_1"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
-		"teambg_2"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
-		"teambg_3"              "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+        "image"         "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"	
+        "teambg_1"      "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		"teambg_2"      "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		"teambg_3"      "replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
+		"drawcolor"		"TanDarker"
 		
 		if_match
 		{

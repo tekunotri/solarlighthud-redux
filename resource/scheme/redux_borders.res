@@ -11,6 +11,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"TanDarker"
 
 			"image"					"replay/thumbnails/bgshapes/SHAPES_NOCLIP_RECTANGLE_BG"
 		}
@@ -19,7 +20,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
+			"color"					"TanDarker"
 			"image"					"replay/thumbnails/bgshapes/SHAPES_CLIP_AMMO_BG"
 		}
 
@@ -27,6 +28,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"TanLight"
 
 			"image"					"replay/thumbnails/bgshapes/SHAPES_RESERVE_AMMO_BG"
 		}

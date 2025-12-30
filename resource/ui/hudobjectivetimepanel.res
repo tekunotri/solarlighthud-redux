@@ -94,42 +94,34 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"0"
-		"ypos"			"30"
+		"xpos"			"c-34"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"400"
-		"tall"			"12"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_Overtime"
+		"labelText"		"!"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Futura8"
-		"fgcolor_override"	"TanLight"
+		"font"			"SLItalicMediumSmall"
+		"fgcolor_override"	"SolarTeamRED"
+		"proportionaltoparent"	"1"
 
 		if_match
 		{
 		}
 	}			
-	"OvertimeBG"
+	"OvertimeBG" //doesn't work anyway
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"173"	[$WIN32]
-		"ypos"			"25"
-		"zpos"			"1"
-		"wide"			"55"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/timer/setuppanel"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-		}
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"SuddenDeathLabel"
 	{

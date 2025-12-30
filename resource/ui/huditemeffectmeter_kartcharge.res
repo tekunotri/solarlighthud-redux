@@ -85,6 +85,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES" //hack. this texture is a bit too high res for this
 		"scaleImage"	"1"	
+		"drawcolor"		"TanDarker"
 	}	
 	
 	"ItemEffectMeterCount" //kart hp percent

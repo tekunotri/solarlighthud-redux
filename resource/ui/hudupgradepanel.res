@@ -677,6 +677,7 @@
 			"image"			"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
+			"drawcolor"		"TanDarker"
 		}
 
 		

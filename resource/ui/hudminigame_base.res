@@ -87,6 +87,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
 		"scaleImage"	"1"	
+		"drawcolor"		"TanDarker"
 	}
 
 	"EliminationLabel"

@@ -59,7 +59,7 @@ event CompetitiveGame_RestoreChatWindow
     RunEventChild HudPlayerHealth HPSpawnAnim 0.1
 	RunEventChild HudPlayerClass ClassSpawnAnim 0.1
     RunEventChild HudWeaponAmmo AmmoSpawnAnim 0.1
-	RunEventChild HudMatchStatus HudTournament_DoorsCleanup 0 //this animation freezes when respawning, make everything invis
+	RunEventChild HudMatchStatus HudTournament_DoorsCleanup 2.6 //this animation freezes when respawning, make everything invis
 }
 
 event SpawnAnim

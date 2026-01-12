@@ -849,6 +849,138 @@
 					"fgcolor_override"	"TFOrange"
 					"proportionaltoparent"	"1"
 				}
+				
+				"DefaultScoreboardStatsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DefaultScoreboardStatsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"DefaultScoreboardStats"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"26"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"225"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine DefaultScoreboardStats"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDDefault"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"SimpleScoreboardStatsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SimpleScoreboardStatsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"SimpleScoreboardStats"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"256"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"225"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine SimpleScoreboardStats"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDCenter"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
+					}	
+				}
+				
+				"DisabledScoreboardStatsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DisabledScoreboardStatsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"DisabledScoreboardStats"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"486"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"225"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine DisabledScoreboardStats"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"xpos"			"cs-0.5"
+						"ypos"			"cs-0.5"
+						"zpos"			"3"
+						"wide"			"390"
+						"tall"			"219"
+						"visible"		"1"
+						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDClassic"
+						"scaleImage"	"1"
+						"paintBackground"   "1"
+					"proportionaltoparent"	"1"
+					}	
+				}
             }
         } //end expandable Customization
 		

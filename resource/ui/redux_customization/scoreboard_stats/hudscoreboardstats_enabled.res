@@ -102,6 +102,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "255 213 0 255"
+		"border"		"NoBorder"
+		"textinsety"	"0"
 		
 		if_mvm
 		{
@@ -151,6 +153,54 @@
 		if_mvm
 		{
 		}
+		
+		"KillsColored"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"KillsColored"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
+		
+		"KillsStroke"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"KillsStroke"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
+		
+		"AssistsColored"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"AssistsColored"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
+		
+		"AssistsStroke"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"AssistsStroke"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
+		
+		"DeathsColored"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DeathsColored"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
+		
+		"DeathsStroke"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DeathsStroke"
+			"visible"		"0"
+			"enabled"		"0"
+		}	
 
 		"KillsLabel"
 		{

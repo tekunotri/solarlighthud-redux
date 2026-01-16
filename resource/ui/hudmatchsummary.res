@@ -323,7 +323,7 @@
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"4"
-					"wide"			"p.19"
+					"wide"			"p.21"
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -346,7 +346,7 @@
 					"xpos"			"5"
 					"ypos"			"103"
 					"zpos"			"3"
-					"wide"			"p.19"
+					"wide"			"p.21"
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -356,7 +356,7 @@
 
 					if_large
 					{
-						"ypos"			"104"
+						"ypos"			"103"
 					}
 				}
 				"BlueTeamImage"
@@ -375,7 +375,7 @@
 
 					if_large
 					{
-						"ypos"			"80"
+						"ypos"			"89"
 					}
 				}
 				"BlueTeamLabel"
@@ -593,10 +593,10 @@
 					"font"			"SLBoldMedium"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
-					"xpos"			"r5-p.19"
+					"xpos"			"r5-p.21"
 					"ypos"			"103"
 					"zpos"			"4"
-					"wide"			"p.19"
+					"wide"			"p.21"
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -616,10 +616,10 @@
 					"fgcolor"		"Black"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
-					"xpos"			"r5-p.19"
+					"xpos"			"r5-p.21"
 					"ypos"			"103"
 					"zpos"			"3"
-					"wide"			"p.19"
+					"wide"			"p.21"
 					"tall"			"30"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -629,7 +629,7 @@
 
 					if_large
 					{
-						"ypos"			"104"
+						"ypos"			"103"
 					}
 				}
 				"RedTeamImage"

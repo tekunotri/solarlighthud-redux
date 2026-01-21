@@ -90,15 +90,22 @@
 	
 	"GithubButton"
 	{
-		"label"			"Github"
+		"label"			"#MainMenu_Github"
 		"Command"		"url https://github.com/SolarLightTF2/SolarLightHUD-REDUX/"
-		"tooltip" 		"Github"
+		"tooltip" 		"#MainMenu_Github"
 	}
 
 	"ComfigHUDsButton"
 	{
-		"label"			"Comfig HUDs"
+		"label"			"#MainMenu_Comfig"
 		"Command"		"url https://comfig.app/huds/page/solarlight-hud/"
-		"tooltip" 		"Comfig HUDs"
+		"tooltip" 		"#MainMenu_Comfig"
+	}
+	
+	"PlayVideoButton"
+	{
+		"label"			"#MainMenu_Video"
+		"Command"		"engine playvideo redux_intro"
+		"tooltip" 		"#MainMenu_Video"
 	}
 }

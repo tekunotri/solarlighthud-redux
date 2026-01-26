@@ -1,6 +1,3 @@
-#base "hudmatchstatus_casualmodevsdoors.res"
-#base "hudmatchstatus_timer_roundcounter.res"
-
 //all door animations, postsummary stuff and the timer + roundcounter position are moved to the above files
 //what remains here are the player panels alone
 

@@ -1565,79 +1565,130 @@
 					"proportionaltoparent"	"1"
 				}		
 			}
-			
-			"SLHUDLOGO"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SLHUDLOGO"
-				"xpos"			"cs-0.5"
-				"ypos"			"c-150"
-				"zpos"			"9"
-				"wide"			"300"
-				"tall"			"150"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/logo"
-				"scaleImage"	"1"	
-				"proportionalToParent"	"1"
-			}
-
-			"CreditsListLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"CreditsListLabel"
-				"font"			"Futura12"
-				"labelText"		"#Customization_Credits"
-				"textAlignment"	"center"
-				"xpos"			"cs-0.5"
-				"ypos"			"c-10"
-				"zpos"			"10"
-				"wide"			"280"
-				"tall"			"150"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"5"
-				"centerwrap"	"1"
-				"fgcolor_override"	"TanLight"
-				"proportionaltoparent"		"1"
-				"border"		"BorderTanDarkerCornersVerySmall"
-			}
 				
             "OptionList"
             {
                 "ControlName"	"CExScrollingEditablePanel"
                 "fieldName"		"OptionList"
                 "xpos"			"0"
-                "ypos"			"40"
-				"zpos"			"10"
+                "ypos"			"70"
+				"zpos"			"100"
                 "wide"			"f0"
-                "tall"			"550" //change this
+                "tall"			"360" //change this
                 "visible"		"1"
                 "enabled"		"1"
 
-                "allow_mouse_wheel_to_scroll"   "0"
+                "allow_mouse_wheel_to_scroll"   "1"
 //               "scroll_step"                   "50"
                 "restrict_width"                "1"
                 
                 "border"        "MainMenuButtonDefault"
 
+				"SLHUDLOGO"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SLHUDLOGO"
+					"xpos"			"cs-0.5"
+					"ypos"			"20"
+					"zpos"			"9"
+					"wide"			"300"
+					"tall"			"150"
+					"visible"		"1"
+					"enabled"		"1"
+					"image"			"replay/thumbnails/logo"
+					"scaleImage"	"1"	
+					"proportionalToParent"	"1"
+				}
+
+				"CreditsListNote"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CreditsListNote"
+					"font"			"Futura10"
+					"labelText"		"#Customization_Credits_Note"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"170"
+					"zpos"			"10"
+					"wide"			"280"
+					"tall"			"30"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"textinsety"	"0"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"		"1"
+					"border"		"BorderTanDarkerCornersVerySmall"
+				}
+				
+				"CreditsListLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CreditsListLabel"
+					"font"			"Futura12"
+					"labelText"		"#Customization_Credits"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"210"
+					"zpos"			"10"
+					"wide"			"280"
+					"tall"			"150"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"textinsety"	"0"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"		"1"
+					"border"		"BorderTanDarkerCornersVerySmall"
+					"auto_tall_tocontents"	"1"
+				}
+				
+				"CreditsListLabelInvisible" //An invisible version of the above panel, moved a bit lower, to allow the scrollbar to scroll further down than usual
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CreditsListLabelInvisible"
+					"font"			"Futura12"
+					"labelText"		"#Customization_Credits"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"240"
+					"zpos"			"10"
+					"wide"			"280"
+					"tall"			"150"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"textinsety"	"0"
+					"centerwrap"	"1"
+					"fgcolor_override"	"Blank"
+					"proportionaltoparent"		"1"
+					"border"		"NoBorder"
+					"auto_tall_tocontents"	"1"
+				}
+			
                 "ScrollBar"
                 {
                     "FieldName"		"ScrollBar"
                     "xpos"			"rs1-1"
                     "ypos"			"0"
                     "tall"			"f0"
-                    "wide"			"5" // This gets slammed from client schme.  GG.
-                    "zpos"			"1000"
+                    "wide"			"10" // This gets slammed from client schme.  GG.
+                    "zpos"			"10"
                     "nobuttons"		"1"
                     "proportionaltoparent"	"1"
 
                     "Slider"
                     {
-                        "fgcolor_override"	"0 0 0 0"
-						"bgcolor_override"	"0 0 0 0"
+                        "fgcolor_override"	"Orange"
+						"bgcolor_override"	"TanDark"
                     }
                 
                     "UpButton"

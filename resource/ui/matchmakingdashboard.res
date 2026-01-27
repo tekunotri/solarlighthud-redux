@@ -470,10 +470,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
-			"xpos"			"cs-0.5"
-			"ypos"			"-50"
+			"xpos"			"290"
+			"ypos"			"-25"
 			"zpos"			"110"
-			"wide"			"220"
+			"wide"			"100"
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
@@ -493,39 +493,20 @@
 				"border"		"BorderTanDarkCornersVerySmall"
 			}
 
-			"PromptText"
-			{
-				"ControlName"	"Label"
-				"fieldName"		"PromptText"
-				"xpos"			"cs-0.5"
-				"ypos"			"1"
-				"wide"			"f35"
-				"zpos"			"100"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"TanLight"
-				"textAlignment"	"west"
-				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-			}		
-
 			"JoinNowButton"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
-				"xpos"			"rs1-10"
+				"xpos"			"cs-0.5"
 				"ypos"			"rs1-9"
-				"wide"			"40"
+				"wide"			"80"
 				"zpos"			"100"
 				"tall"			"15"
 
 				if_queued
 				{
-					"xpos"			"cs-0.5"
-					"wide"			"150"
+					"xpos"			"0"
+					"wide"			"100"
 				}
 				
 				"autoResize"	"0"
@@ -539,7 +520,7 @@
 				"brighttext"	"0"
 				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
+				"labeltext"		"#TF_Friends_JoinParty"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"

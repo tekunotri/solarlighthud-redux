@@ -726,10 +726,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SHAPES_MAINMENU_BG"
-		"xpos"			"c-210"
-		"ypos"			"c-90"
+		"xpos"			"c-201"
+		"ypos"			"c-92"
 		"zpos"			"-100"
-		"wide"			"100"
+		"wide"			"80"
 		"tall"			"160"
 		"visible"		"1"
 		"enabled"		"1"
@@ -737,6 +737,7 @@
 		"scaleImage"	"1"
 		"alpha"			"255"
 		"mouseinputenabled"	"0"
+		"drawcolor"		"TanDarker"
 	}	
 	
 	"SHAPES_OPTIONS_TANDARK"
@@ -1943,7 +1944,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ServerBrowserButton"
-		"xpos"			"c-277"
+		"xpos"			"c-284"
 		"ypos"			"156"
 		"wide"			"235"
 		"tall"			"32"
@@ -1966,8 +1967,8 @@
 		"paintbackground"	"1"
 		"allcaps"			"1"
 		
-		"border_default"	""
-		"border_armed"		""		
+		"border_default"	"NoBorder"
+		"border_armed"		"ButtonFlickerWideTanDarker"	
 		
 		"image_drawcolor"	"235 226 202 255"
 		
@@ -1994,6 +1995,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
+
 		}		
 	}
 	
@@ -2001,7 +2003,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerBrowserButton"
-		"xpos"			"c-277"
+		"xpos"			"c-284"
 		"ypos"			"156"
 		"zpos"			"-1"
 		"wide"			"235"
@@ -2028,9 +2030,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HostServerButton"
-		"xpos"			"c-277"
+		"xpos"			"c-255"
 		"ypos"			"186"
-		"wide"			"235"
+		"wide"			"180"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2051,8 +2053,8 @@
 		"paintbackground"	"1"
 		"allcaps"			"0"
 		
-		"border_default"	""
-		"border_armed"		""		
+		"border_default"	"NoBorder"
+		"border_armed"		"ButtonFlickerWideTanDarker"		
 		
 		"image_drawcolor"	"235 226 202 255"
 		
@@ -2086,10 +2088,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HostServerButton"
-		"xpos"			"c-277"
+		"xpos"			"c-255"
 		"ypos"			"186"
 		"zpos"			"-1"
-		"wide"			"235"
+		"wide"			"180"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2113,7 +2115,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-277"
+		"xpos"			"c-276"
 		"ypos"			"205"
 		"wide"			"235"
 		"tall"			"32"
@@ -2135,8 +2137,8 @@
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		
-		"border_default"	""
-		"border_armed"		""		
+		"border_default"	"NoBorder"
+		"border_armed"		"ButtonFlickerWideTanDarker"		
 		
 		"image_drawcolor"	"235 226 202 255"
 		
@@ -2168,7 +2170,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CharacterSetupButtonOutline"
-		"xpos"			"c-277"
+		"xpos"			"c-276"
 		"ypos"			"205"
 		"zpos"			"-1"
 		"wide"			"235"
@@ -2638,7 +2640,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButtonNew"
-		"xpos"			"c-277"
+		"xpos"			"c-269"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"
@@ -2678,8 +2680,8 @@
 			"paintbackground"	"1"
 			"allcaps"			"1"
 			
-			"border_default"	""
-			"border_armed"		""		
+			"border_default"	"NoBorder"
+			"border_armed"		"ButtonFlickerWideTanDarker"		
 			
 			"image_drawcolor"	"235 226 202 255"
 			
@@ -2712,7 +2714,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButtonNewOutline"
-		"xpos"			"c-277"
+		"xpos"			"c-269"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"

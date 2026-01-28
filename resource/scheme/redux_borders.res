@@ -5,8 +5,36 @@ Scheme
 	{
 
 		//Solar Borders
-		//SHAPES
+		
+		//MENU BUTTONS
+		ButtonFlickerWideTanDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"TanDark"
 
+			"image"					"replay/thumbnails/borders/button/menu_button_flicker"
+		}
+		
+		ButtonFlickerWideTanDarker
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"TanDarker"
+
+			"image"					"replay/thumbnails/borders/button/menu_button_flicker"
+		}
+		
+		ButtonFlickerWideSaleGreen
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"SaleGreen"
+
+			"image"					"replay/thumbnails/borders/button/menu_button_flicker"
+		}
+
+		//SHAPES
 		SolarNoClipRectangleBG
 		{
 			"bordertype"			"scalable_image"

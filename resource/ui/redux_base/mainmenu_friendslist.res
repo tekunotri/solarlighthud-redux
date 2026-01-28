@@ -54,7 +54,7 @@
 				"labelText"		"#TF_Competitive_Friends"
 				"textinsetx"	"0"
 				"textAlignment"	"center"
-				"xpos"			"cs-0.5"
+				"xpos"			"cs-0.5+7"
 				"ypos"			"0"
 				"wide"			"235"
 				"tall"			"30"
@@ -69,6 +69,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"proportionaltoparent"	"1"
 				
+				"border_default"	"NoBorder"
+				"border_armed"		"ButtonFlickerWideTanDarker"	
+		
 				"defaultBgColor_override" 	"0 0 0 0"
 				"armedBgColor_override" 	"0 0 0 0"
 				"depressedBgColor_override" "0 0 0 0"
@@ -83,7 +86,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"FriendsButtonOutline"
-				"xpos"			"cs-0.5"
+				"xpos"			"cs-0.5+7"
 				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"235"

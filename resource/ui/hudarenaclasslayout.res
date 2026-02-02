@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/borders/border_tandark_corners"
+		"image"			"replay/thumbnails/borders/border_tandarker_corners"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/borders/border_tandark_corners"
-		"teambg_3"		"replay/thumbnails/borders/border_tandark_corners"
+		"teambg_2"		"replay/thumbnails/borders/border_tandarker_corners"
+		"teambg_3"		"replay/thumbnails/borders/border_tandarker_corners"
 			
 		"src_corner_height"		"30"				// pixels inside the image
 		"src_corner_width"		"30"

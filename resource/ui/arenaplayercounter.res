@@ -47,49 +47,64 @@
 		}	
 	}
 	
-	"VSStar"
+	"VSStar_Rotate_BG"
 	{
 		"ControlName"	"ImagePanel"		
-		"fieldName"		"VSStar"
-		"xpos"			"c-13"
-		"ypos"			"52"
+		"fieldName"		"VSStar_Rotate_BG"
+		"xpos"			"cs-0.5"
+		"ypos"			"20"
 		"zpos"			"3"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"98"
+		"tall"			"98"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"glyph_achievements"
+		"image"			"replay/thumbnails/bgshapes/winpanel_star_bg"
 		"scaleImage"	"1"
-		"drawcolor" "TanLight"
+		"drawcolor" "TanDarker"
+		"proportionaltoparent"	"1"
 	}
 	
-	"VSLabel"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"VSLabel"
-		"font"			"Futura16"
-		"xpos"			"c-10"
-		"ypos"			"54"
+	"VSStar_Rotate_FG"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"		"VSStar_Rotate_FG"
+		"xpos"			"cs-0.5"
+		"ypos"			"24"
 		"zpos"			"4"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"wide"			"90"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"vs."
-		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"fgcolor_override"	"CreditsGreen"
+		"image"			"replay/thumbnails/bgshapes/winpanel_star_fg"
+		"scaleImage"	"1"
+		"drawcolor" "TanLight"
+		"proportionaltoparent"	"1"
 	}
+	
+	"VSText"
+	{
+		"ControlName"	"ImagePanel"		
+		"fieldName"		"VSText"
+		"xpos"			"cs-0.5"
+		"ypos"			"53"
+		"zpos"			"5"
+		"wide"			"34"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/bgshapes/arena_vs_text_only"
+		"scaleImage"	"1"
+		"drawcolor" "255 255 255 255"
+		"proportionaltoparent"	"1"
+	}
+	
 	
 	"VSBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"VSBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"56"
+		"ypos"			"60"
 		"zpos"			"-10"
 		"wide"			"60"
 		"tall"			"20"
@@ -106,8 +121,8 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"0"
-		"ypos"					"21"
-		"zpos"					"0"
+		"ypos"					"26"
+		"zpos"					"5"
 		"wide"					"f0"
 		"tall"					"480"
 		"scaleimage"			"0"
@@ -118,7 +133,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueScoreValueContainer"
-			"xpos"			"c-73"
+			"xpos"			"c-68"
 			"ypos"			"19"
 			"zpos"			"0"
 			"wide"			"60"
@@ -142,6 +157,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"east"
 				"fgcolor"		"SolarTeamBLU"
+				"textinsetx"	"15"
 			}	
 			"ScoreShadow"
 			{
@@ -160,6 +176,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"east"
 				"fgcolor"		"Black"
+				"textinsetx"	"15"
 			}
 		}
 		
@@ -167,7 +184,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreValueContainer"
-			"xpos"			"c13"
+			"xpos"			"c8"
 			"ypos"			"19"
 			"zpos"			"0"
 			"wide"			"60"
@@ -191,6 +208,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"west"
 				"fgcolor"		"SolarTeamRED"
+				"textinsetx"	"15"
 			}	
 			"ScoreShadow"
 			{
@@ -209,6 +227,7 @@
 				"labelText"		"%score%"
 				"textAlignment"	"west"
 				"fgcolor"		"Black"
+				"textinsetx"	"15"
 			}	
 		}
 	}

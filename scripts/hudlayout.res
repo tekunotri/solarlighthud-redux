@@ -1219,6 +1219,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"r320"
+		"zpos"					"1000"
 		"wide"					"f0"
 		"tall"					"320"
 	}

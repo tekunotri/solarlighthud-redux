@@ -151,32 +151,6 @@
 		"proportionaltoparent"	"1"
 	}	
 	
-	"SelectTeamLabelSolar" [$WIN32]
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SelectTeamLabelSolar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"400"
-		"tall"			"40"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"center"
-		"font"			"SLHealthAmmo"
-		"fgcolor"		"TanLight"
-		"auto_wide_tocontents"	"1"
-		"centerwrap"			"1"
-		
-		"pin_to_sibling"	"SelectTeamLabelAnchor"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"4"
-	}
-	
 	"SelectTeamLabelColored"	//centerwrap is the only way to center this shit because of the special text characters used in labeltext
 	{
 		"controlname" "cautofittinglabel"
@@ -845,7 +819,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"jointeam spectate"
+		"command"		"jointeam spectatearena"
 		"font"			"Futura20"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"

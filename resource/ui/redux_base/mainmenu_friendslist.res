@@ -65,8 +65,9 @@
 				"paintbackgroundtype" 	"0"
 				"roundedcorners"		"0"
 
-				"sound_armed"		"UI/buttonrollover.wav"
+				"sound_armed"		"UI/menu_focus.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				
 				"border_default"	"NoBorder"

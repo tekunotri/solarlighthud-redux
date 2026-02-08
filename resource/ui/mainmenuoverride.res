@@ -52,6 +52,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
+				"sound_armed"		"UI/menu_focus.wav"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
@@ -181,6 +182,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -252,6 +254,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -323,6 +326,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -394,6 +398,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -465,6 +470,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -578,8 +584,9 @@
 			"textAlignment"	"center"
 			"command"		"engine sv_cheats 1;sv_allow_wait_command 1; wait 100; cl_mainmenu_safemode 1"
 			
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/menu_focus.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 
@@ -1099,12 +1106,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
 		"SubImage"
 		{
@@ -1211,9 +1212,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"SubButton"
 		{
@@ -1237,13 +1235,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
+
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			"image_drawcolor"	"235 226 202 255"
@@ -1299,12 +1297,6 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
 		"border"		"BorderTanDarkCornersVerySmall"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
 		
 		"Notifications_CloseButton"
 		{
@@ -1331,6 +1323,7 @@
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
 
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -1448,11 +1441,6 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"QuitButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1759,11 +1747,6 @@
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"ResumeGameButton"
-		"navRight"		"CallVoteButton"
-		"navDown"		"QuickplayChangeButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1784,6 +1767,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -1835,11 +1819,6 @@
 		"tall"			"25"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1860,6 +1839,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"RoundedCorners"	"0"
@@ -1961,6 +1941,7 @@
 		"default"		"1"
 		"command"		"OpenServerBrowser"
 		"labeltext"		"#MMenu_Servers"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2047,6 +2028,7 @@
 		"default"		"1"
 		"command"		"OpenCreateMultiplayerGameDialog"
 		"labeltext"		"#SL_BUTTON_HOST"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2132,6 +2114,7 @@
 		"default"		"1"
 		"command"		"engine open_charinfo"
 		"labeltext"		"#MMenu_CharacterSetup"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2213,6 +2196,7 @@
 		"default"		"1"
 		"command"		"OpenOptionsDialog"
 		"labeltext"		"#MMenu_Tooltip_Options"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2296,6 +2280,7 @@
 		"default"		"1"
 		"command"		"opentf2options"
 		"labeltext"		"#TF_ImportFile_Advanced"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2379,6 +2364,7 @@
 		"default"		"1"
 		"command"		"engine sv_cheats 1;sv_allow_wait_command 1; wait 100; cl_mainmenu_safemode 1; hideconsole"
 		"labeltext"		"Customization"
+		"sound_armed"		"UI/menu_focus.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2480,6 +2466,7 @@
 		"default"		"1"
 		"command"		"url https://github.com/SolarLightTF2/solarlighthud-redux/issues/new"
 		"labeltext"		"#MMenu_Tooltip_ReportBug"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -2596,6 +2583,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+			"sound_armed"		"UI/buttonrollover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -2647,11 +2635,6 @@
 		"tall"			"32"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2674,6 +2657,7 @@
 			"default"		"1"
 			"command"		"quit"
 			"labeltext"		"#TF_Quit_Title"
+			"sound_armed"		"UI/menu_focus.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"proportionaltoparent"	"1"
@@ -2721,11 +2705,6 @@
 		"tall"			"32"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2748,6 +2727,7 @@
 			"default"		"1"
 			"command"		"quit"
 			"labeltext"		"#TF_Quit_Title"
+			"sound_armed"		"UI/menu_focus.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"proportionaltoparent"	"1"
@@ -2795,11 +2775,6 @@
 		"tall"			"32"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2822,6 +2797,7 @@
 			"default"		"1"
 			"command"		"disconnect"
 			"labeltext"		"#TF_Disconnect"
+			"sound_armed"		"UI/menu_focus.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"proportionaltoparent"	"1"
@@ -2869,11 +2845,6 @@
 		"tall"			"32"
 		"visible"		"1"
 
-		"navLeft"		"ReportPlayerButton"
-		"navDown"		"QuickplayChangeButton"
-		"navRight"		"MutePlayersButton"
-		"navToRelay"	"SubButton"
-
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2896,6 +2867,7 @@
 			"default"		"1"
 			"command"		"disconnect"
 			"labeltext"		"#TF_Disconnect"
+			"sound_armed"		"UI/menu_focus.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"proportionaltoparent"	"1"

@@ -218,6 +218,7 @@
 		"pin_to_sibling"	"ResistIconAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP"
 		"pin_to_sibling_corner" "PIN_CENTER_TOP"
+		"alpha"			"180"
 	}
 	
 }

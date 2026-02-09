@@ -6,7 +6,7 @@
 	{
 		"controlname"	"Label"
 		"xpos"			"cs-0.5+20"
-		"ypos"			"r16"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"20"
@@ -20,7 +20,7 @@
 	{
 		"controlname"	"ScalableImagePanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"r20"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"30"

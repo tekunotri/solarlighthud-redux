@@ -144,7 +144,7 @@ Scheme
 	Fonts
 	{
 	
-		"Trebuchet24" //MGE 3 2 1 FIGHT
+		"Trebuchet24" //MGE 3 2 1 FIGHT + loadingdialog.res
 		{
 			"1"
 			{

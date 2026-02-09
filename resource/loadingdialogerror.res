@@ -72,7 +72,7 @@
 		"ControlName"		"Divider"
 		"fieldName"		"Divider1"
 		"xpos"		"20"
-		"ypos"		"104"
+		"ypos"		"9999"
 		"wide"		"340"
 		"tall"		"2"
 		"autoResize"		"0"

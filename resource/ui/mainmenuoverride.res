@@ -1924,7 +1924,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ServerBrowserButton"
-		"xpos"			"c-284"
+		"xpos"			"c-286"
 		"ypos"			"156"
 		"wide"			"235"
 		"tall"			"32"
@@ -1984,7 +1984,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerBrowserButton"
-		"xpos"			"c-284"
+		"xpos"			"c-286"
 		"ypos"			"156"
 		"zpos"			"-1"
 		"wide"			"235"
@@ -2097,7 +2097,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-276"
+		"xpos"			"c-278"
 		"ypos"			"205"
 		"wide"			"235"
 		"tall"			"32"
@@ -2153,7 +2153,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CharacterSetupButtonOutline"
-		"xpos"			"c-276"
+		"xpos"			"c-278"
 		"ypos"			"205"
 		"zpos"			"-1"
 		"wide"			"235"
@@ -2628,7 +2628,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButtonNew"
-		"xpos"			"c-269"
+		"xpos"			"c-268"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"
@@ -2698,7 +2698,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButtonNewOutline"
-		"xpos"			"c-269"
+		"xpos"			"c-268"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"
@@ -2768,7 +2768,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButtonNew"
-		"xpos"			"c-266"
+		"xpos"			"c-267"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"
@@ -2838,7 +2838,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButtonNewOutline"
-		"xpos"			"c-266"
+		"xpos"			"c-267"
 		"ypos"			"269"
 		"zpos"			"8"
 		"wide"			"235"

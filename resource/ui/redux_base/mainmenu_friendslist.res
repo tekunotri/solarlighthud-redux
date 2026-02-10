@@ -54,7 +54,7 @@
 				"labelText"		"#TF_Competitive_Friends"
 				"textinsetx"	"0"
 				"textAlignment"	"center"
-				"xpos"			"cs-0.5+7"
+				"xpos"			"cs-0.5+5"
 				"ypos"			"0"
 				"wide"			"235"
 				"tall"			"30"
@@ -87,7 +87,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"FriendsButtonOutline"
-				"xpos"			"cs-0.5+7"
+				"xpos"			"cs-0.5+5"
 				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"235"

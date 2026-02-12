@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/menu_bg/very_optimized_60fps_line_warp"
+	"$basetexture" "vgui/replay/thumbnails/menu_bg/line_warp"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
@@ -20,7 +20,7 @@
 		{	
 			"texturescrollvar" "$baseTextureTransform"
 			"texturescrollrate" 0.2
-			"texturescrollangle" 0
+			"texturescrollangle" 5
 		}
 	}
 

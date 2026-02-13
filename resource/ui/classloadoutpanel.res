@@ -22,7 +22,7 @@
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"-162"
-		"item_ypos"		"60"
+		"item_ypos"		"62"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
 		
@@ -140,6 +140,34 @@
         "pin_to_sibling_corner"        "3"
     }
 	
+	"topbartandark"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"topbartandark"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"TanDark"
+	}
+	
+	"bottombartandark"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"bottombartandark"
+		"xpos"			"0"
+		"ypos"			"r120"
+		"zpos"			"-15"
+		"wide"			"f0"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"TanDark"
+	}
+	
 	"bg"
 	{
 		"ControlName"	"ImagePanel"
@@ -182,7 +210,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"box"
 		"xpos"			"c-316"
-		"ypos"			"54"
+		"ypos"			"56"
 		"zpos"			"-11"
 		"wide"			"300"
 		"tall"			"308"
@@ -209,7 +237,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TFLogoOctagon"
 		"xpos"			"c-310"
-		"ypos"			"18"
+		"ypos"			"13"
 		"zpos"			"19"
 		"wide"			"35"
 		"tall"			"35"
@@ -246,9 +274,9 @@
 		"fieldName"		"ClassLabel"
 		"font"			"SLItalicMedium"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
+		"textAlignment"	"south"
 		"xpos"			"c-275"
-		"ypos"			"18"
+		"ypos"			"11"
 		"zpos"			"-13"
 		"wide"			"240"
 		"tall"			"35"
@@ -260,6 +288,7 @@
 		"fgcolor_override"	"TanLight"
 		"auto_wide_tocontents"	"1"
 		"textinsetx"	"20"
+		"textinsety"		"2"
 	}
 
 	"ClassLabelStroke"
@@ -268,9 +297,9 @@
 		"fieldName"		"ClassLabelStroke"
 		"font"			"SLItalicMediumStroke"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
+		"textAlignment"	"south"
 		"xpos"			"c-275"
-		"ypos"			"18"
+		"ypos"			"11"
 		"zpos"			"-14"
 		"wide"			"240"
 		"tall"			"35"
@@ -283,6 +312,7 @@
 		"border"		"BorderTargetIDTanDarker"
 		"auto_wide_tocontents"	"1"
 		"textinsetx"	"20"
+		"textinsety"		"2"
 	}
 	
 	"TauntLabel"

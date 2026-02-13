@@ -7,7 +7,7 @@
         "ypos"            "0"
         "zpos"            "-12"
         "wide"            "25"
-        "tall"            "100"
+        "tall"            "106"
         "autoResize"    "1"
         "pinCorner"        "0"
         "visible"        "1"
@@ -20,7 +20,7 @@
             "ControlName"    "EditablePanel"
             "FieldName"        "move0"
             "xpos"            "-45"
-            "ypos"            "0"
+            "ypos"            "4"
             "wide"            "1"
             "tall"            "10"
         }
@@ -30,7 +30,7 @@
             "ControlName"    "EditablePanel"
             "FieldName"        "move1"
             "xpos"            "-16"
-            "ypos"            "25"
+            "ypos"            "29"
             "wide"            "1"
             "tall"            "10"
         }
@@ -40,7 +40,7 @@
             "ControlName"    "EditablePanel"
             "FieldName"        "move2"
             "xpos"            "12"
-            "ypos"            "45"
+            "ypos"            "49"
             "wide"            "1"
             "tall"            "10"
         }
@@ -50,7 +50,7 @@
             "ControlName"    "EditablePanel"
             "FieldName"        "move3"
             "xpos"            "40"
-            "ypos"            "74"
+            "ypos"            "78"
             "wide"            "1"
             "tall"            "1"
         }

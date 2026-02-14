@@ -1,5 +1,3 @@
-#base "hudmatchstatus_def.res"
-
 //similar to the hp / ammo, just move it by shrinking it
 "resource/ui/hudmediccharge.res"
 {	

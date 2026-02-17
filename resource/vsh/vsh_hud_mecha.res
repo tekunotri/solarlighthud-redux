@@ -174,7 +174,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"VSHCustomText"
 			"font"			"SLBoldSmall"
-			"labelText"		"#VSH_Boss_Saxton_Hale"
+			"labelText"		"#VSH_Boss_Mecha_Hale"
 			"textAlignment"	"south"
 			"xpos"			"c-120"
 			"ypos"			"45"
@@ -195,7 +195,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"VSHCustomTextStroke"
 			"font"			"SLBoldSmallStroke"
-			"labelText"		"#VSH_Boss_Saxton_Hale"
+			"labelText"		"#VSH_Boss_Mecha_Hale"
 			"textAlignment"	"south"
 			"xpos"			"c-120"
 			"ypos"			"45"
@@ -239,7 +239,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"scaleImage"	"0"	
-				"Image"			"vssaxtonhale/boss_bar"
+				"Image"			"../vsh/ui_mecha/vsh_mecha_bar"
 			}
 		}
 		

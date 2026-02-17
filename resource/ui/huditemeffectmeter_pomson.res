@@ -1,5 +1,6 @@
 //Charge meter for: Pomson
-#base "../../../../cfg/redux_customization/redux_meterposition.txt"
+#base "../../../../cfg/redux_customization/redux_meter_bottom.txt"
+#base "../../../../cfg/redux_customization/redux_meterstyle.txt"
 #base "huditemeffectmeter_#bottom.res"
 
 //go here to edit appearance

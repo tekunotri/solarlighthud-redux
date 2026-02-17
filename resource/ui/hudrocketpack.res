@@ -1,4 +1,5 @@
 //todo: fix this (probably)
+#base "../../../../cfg/redux_customization/redux_meterstyle.txt"
 #base "huditemeffectmeter_#top.res"
 #base "huditemeffectmeter.res"
 

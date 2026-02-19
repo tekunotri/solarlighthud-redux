@@ -7,7 +7,13 @@
 	"ItemEffectMeter"
 	{
 		"xpos"					"32"
-		"wide"					"55"
+		"wide"					"27"
+		"tall"					"5"
+	}
+	"ItemEffectMeter2"
+	{
+		"xpos"					"60"
+		"wide"					"28"
 		"tall"					"5"
 	}
 	"ItemEffectMeterLabel"
@@ -16,13 +22,7 @@
 		"ypos"					"31"
 		"visible"				"0"
 	}
-	"ItemEffectMeter2"
-	{
-		"xpos"			"34"
-		"ypos"			"28"
-		"zpos"			"5"
-		"wide"			"20"
-	}
+
 	"coolborder"
 	{
 		"xpos"					"0"

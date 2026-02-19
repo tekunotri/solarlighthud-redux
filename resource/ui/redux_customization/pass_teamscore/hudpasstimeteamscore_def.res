@@ -48,8 +48,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-90"
-		"ypos"			"r50"
+		"xpos"			"c-84"
+		"ypos"			"r47"
 		"zpos"			"8"
 		"wide"			"30"
 		"tall"			"25"
@@ -57,24 +57,24 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Futura28"
-		"fgcolor"		"TanLight"
+		"font"			"SLBoldMedium"
+		"fgcolor"		"SolarTeamBLU"
 	}	
 		
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-118"
-		"ypos"			"r49"
+		"xpos"			"c-84"
+		"ypos"			"r47"
 		"zpos"			"7"
 		"wide"			"30"
-		"tall"			"35"
-		"visible"		"0"
-		"enabled"		"0"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
+		"font"			"SLBoldMediumStroke"
 		"fgcolor"		"Black"
 	}	
 	
@@ -82,26 +82,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"c-90"
-		"ypos"			"r50"
-		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"25"
-		"fillcolor"		"SolarTeamBLU"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c62"
-		"ypos"			"r50"
+		"xpos"			"c55"
+		"ypos"			"r47"
 		"zpos"			"8"
 		"wide"			"30"
 		"tall"			"25"
@@ -109,24 +99,24 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Futura28"
-		"fgcolor"		"TanLight"	
+		"font"			"SLBoldMedium"
+		"fgcolor"		"SolarTeamRED"	
 	}	
 		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c63"
-		"ypos"			"r49"
+		"xpos"			"c55"
+		"ypos"			"r47"
 		"zpos"			"7"
-		"wide"			"40"
+		"wide"			"30"
 		"tall"			"25"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Futura28"
+		"font"			"SLBoldMediumStroke"
 		"fgcolor"		"TanDarker"		
 	}
 
@@ -134,18 +124,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"c62"
-		"ypos"			"r50"
-		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"25"
-		"fillcolor"		"SolarTeamRED"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"PlayingToCluster"
@@ -158,16 +138,14 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
-		"visible_minmode"			"0"
 		"enabled"			"1"
-		"enabled_minmode"			"0"
 
 		"PlayingTo"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
 			"visible"		"0"
-			"enabled"		"0"
+			"visible_minmode"		"0"
 		}	
 		
 		"PlayingToColoredLabel"
@@ -177,21 +155,20 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"4"
-			"wide"			"140"
-			"tall"			"15"
+			"wide"			"300"	[$WIN32]
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"visible_minmode"		"0"
-			"enabled_minmode"		"0"
 			"labeltext" "#TF_PlayingTo"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"Futura12"
-			"bgcolor_override"    "TanDarkerTransparent"
+			"bgcolor_override"    "0 0 0 0"
 			"auto_wide_tocontents"	"1"
 			"centerwrap"	"0"
 			"textinsetx"	"12"
-			"textAlignment"	"west"
+			"textAlignment"	"north-west"
+			"border"	"BorderTanDarkerCornersTransparentVerySmall"
 			
 			"colors"
 			{
@@ -204,13 +181,13 @@
 			"pin_corner_to_sibling"		"4"
 			"pin_to_sibling_corner"		"4"
 		}
-				
+		
 		"PlayingToAnchor"
 		{	
 			"ControlName"			"ImagePanel"
 			"fieldName"				"PlayingToAnchor"
 			"xpos"					"c-50"
-			"ypos"					"r40"
+			"ypos"					"r37"
 			"zpos"					"2"
 			"wide"					"100"
 			"tall"					"12"
@@ -222,6 +199,7 @@
 			"fillcolor"				"SolarTeamBLU"
 			"PaintBackgroundType"	"0"
 		}
+				
 		"PlayingToBGNew"
 		{
 			"ControlName"	"ImagePanel"
@@ -234,10 +212,8 @@
 			"fillcolor"		"TanDarker"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"visible_minmode"			"0"
-			"enabled_minmode"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"alpha"			"255"
 			"draw_corner_height" "11"
 		}
@@ -254,10 +230,8 @@
 			"fillcolor"		"TanDarkerTransparent"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"visible_minmode"			"0"
-			"enabled_minmode"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"alpha"			"255"
 			"draw_corner_height" "11"
 		}

@@ -16,6 +16,7 @@
 
 "Resource/UI/HudPasstimeBallStatus.res"
 {	
+
 	"HudPasstimeBallStatus"
 	{
 		"ControlName"		"EditablePanel"
@@ -34,14 +35,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
 		"xpos"			"c-140"
-		"ypos"			"r70"
+		"ypos"			"r60"
 		"zpos"			"-10"
 		"wide"			"280"
 		"tall"			"48"
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		""
-		"image"			"replay/thumbnails/passtime_ballcontrol_bar_meme_vs_meta"
+		"image"			"replay/thumbnails/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
 	}
 		
@@ -52,7 +53,7 @@
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
 		"xpos"			"c-113"
-		"ypos"			"r46"
+		"ypos"			"r36"
 		"visible"		"0"
 	}
 
@@ -63,7 +64,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
 		"xpos"			"c113"
-		"ypos"			"r46"
+		"ypos"			"r36"
 		"visible"		"0"
 	}	
 
@@ -74,8 +75,8 @@
 		"xpos"			"c-162"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -93,8 +94,8 @@
 		"xpos"			"c-132"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -112,8 +113,8 @@
 		"xpos"			"c-102"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -132,8 +133,8 @@
 		"xpos"			"c146"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -151,8 +152,8 @@
 		"xpos"			"c116"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -171,8 +172,8 @@
 		"xpos"			"c86"
 		"ypos"			"r54"
 		"zpos"			"1"									
-		"wide"			"17"
-		"tall"			"17"
+		"wide"			"0" //all of these were 17
+		"tall"			"0"	//all of these were 17
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -211,6 +212,8 @@
 		"zpos"			"-100"
 		"wide"			"30"
 		"tall"			"30"
+		"wide_minmode"			"0"
+		"tall_minmode"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -271,7 +274,6 @@
 		"fieldName" "BallPowerCluster"
 		"xpos" "0"
 		"ypos" "r41"
-		"ypos_minmode" "r26"
 		"zpos" "5"
 		"wide" "f0"
 		"tall" "f0"
@@ -288,8 +290,8 @@
 			"zpos"			"4"
 			"wide"			"100"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#TF_BONUS"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -328,8 +330,8 @@
 			"fillcolor"		"0 0 0 220"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"BallPowerMeterFinalSectionContainer"
@@ -346,8 +348,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"10"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 
 			"BallPowerMeterFinalSection"
 			{
@@ -360,8 +362,8 @@
 				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"tabPosition"	"0"
 				"image"			"white"
 				"scaleImage"	"1"					
@@ -382,8 +384,8 @@
 			"zpos"				"4"
 			"wide"				"100"
 			"tall"				"11"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 
 			"BallPowerMeterFill"
 			{
@@ -396,8 +398,8 @@
 				"tall"			"14"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"tabPosition"	"0"
 				"image"			"white"
 				"scaleImage"	"1"					

@@ -17,30 +17,22 @@
 	
 	"CustomShaderOverlay"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CustomShaderOverlay"
 		"xpos"		    "0"
 		"ypos"		    "0"
 		"zpos"		    "-10000"
 		"wide"		    "f0"
 		"tall"		    "480"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/sepia"
-	}
-	
-	"BGColor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"BGColor"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"		    "-9999"
-		"wide"		    "f0"
-		"tall"		    "480"
-		"bgcolor_override"		"177 146 101 150"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/shaders/persona_sepia"
+		"teambg_1"		"replay/thumbnails/shaders/persona_sepia"
+		"teambg_2"		"replay/thumbnails/shaders/redux_red"
+		"teambg_3"		"replay/thumbnails/shaders/redux_blue"
 	}
-	
+
 	"DX8MenuDarken"
 	{
 		"controlName" "CTFImagePanel"
@@ -62,7 +54,7 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "DX9MenuDarken"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"xpos" "0"
 		"ypos" "0"
@@ -159,12 +151,29 @@
 		"mouseinputenabled"	"0"
 	}	
 	
+	"LoadingBars"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "LoadingBars"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "-12"
+		"wide" "f0"
+		"tall" "f0"
+
+		"image" "replay/thumbnails/loadingbars2048"
+		"scaleimage" "1"
+		"drawcolor"	"32 32 32 255"
+	}
+	
 	"BGBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGBar"
 		"xpos"			"cs-0.5"
-		"ypos"			"100"
+		"ypos"			"cs-0.5"
 		"zpos"			"0"
 		"wide"			"550"
 		"tall"			"280"
@@ -173,7 +182,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"BorderBlackCornersTransparentVerySmall"
+		"border"		"BorderTanDarkerCornersVerySmall"
 		"proportionaltoparent"	"1"
 	}	
 	
@@ -235,10 +244,9 @@
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
 		"font"			"SLHealthAmmoOutline"
-		"fgcolor"		"TanDarker"
+		"fgcolor"		"TanLight"
 		"auto_wide_tocontents"	"1"
 		"centerwrap"			"1"
-		"border"		"BorderTargetIDTanDarker"
 		"proportionaltoparent"	"1"
 		"textinsetx"	"0" //didn't work either
 		
@@ -846,7 +854,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarSpectateButton"
 		"xpos"			"c20"
-		"ypos"			"c160"
+		"ypos"			"c170"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -874,9 +882,9 @@
 		"armedbgColor_override" "Blank"
 		"depressedbgColor_override" "Blank"
 			
-		"border_default"	"BorderTanDarkerCornersVerySmall"
-		"border_depressed"	"BorderTanDarkerCornersVerySmall"
-		"border_armed"		"BorderTanDarkCornersVerySmall"
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 	
 	"SolarAutoSelectButton" [$WIN32] 
@@ -884,7 +892,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"SolarAutoSelectButton"
 		"xpos"			"c-170"
-		"ypos"			"c160"
+		"ypos"			"c170"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -912,9 +920,9 @@
 		"armedbgColor_override" "Blank"
 		"depressedbgColor_override" "Blank"
 			
-		"border_default"	"BorderTanDarkerCornersVerySmall"
-		"border_depressed"	"BorderTanDarkerCornersVerySmall"
-		"border_armed"		"BorderTanDarkCornersVerySmall"
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -950,9 +958,27 @@
 		"armedbgColor_override" "Blank"
 		"depressedbgColor_override" "Blank"
 			
-		"border_default"	"BorderTanDarkerCornersVerySmall"
-		"border_depressed"	"BorderTanDarkerCornersVerySmall"
-		"border_armed"		"BorderTanDarkCornersVerySmall"
+		"border_default"	"BorderTanDarkCornersVerySmall"
+		"border_depressed"	"BorderTanLightCornersVerySmall"
+		"border_armed"		"BorderTanLightCornersVerySmall"
+	}
+	
+	"CancelButtonOutline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CancelButtonOutline"
+		"xpos"			"15"
+		"ypos"			"r40"
+		"zpos"			"6"
+		"wide"			"160"
+		"tall"			"40"
+		"fillcolor"		"0 0 0 0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"border"		"BorderTanDarkCornersVerySmall"
+		"proportionaltoparent"	"1"
 	}
 }
 

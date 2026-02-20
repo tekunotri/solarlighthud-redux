@@ -17,14 +17,20 @@
 	
 	"CustomShaderOverlay"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"CustomShaderOverlay"
 		"xpos"		    "0"
 		"ypos"		    "0"
 		"zpos"		    "-10000"
 		"wide"		    "f0"
 		"tall"		    "480"
 		"scaleimage"	"1"
-		"image"			"replay/thumbnails/shaders/sepia"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/shaders/persona_sepia"
+		"teambg_1"		"replay/thumbnails/shaders/persona_sepia"
+		"teambg_2"		"replay/thumbnails/shaders/redux_red"
+		"teambg_3"		"replay/thumbnails/shaders/redux_blue"
 	}
 	
 	"BGColor"
@@ -36,8 +42,8 @@
 		"zpos"		    "-9999"
 		"wide"		    "f0"
 		"tall"		    "480"
-		"bgcolor_override"		"177 146 101 150"
-		"visible"		"1"
+		"bgcolor_override"		"177 146 101 50"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 	

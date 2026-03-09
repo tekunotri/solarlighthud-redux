@@ -14,4 +14,4 @@ sv_unlockedchapters 99
 //wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
 
 //Fix an issue with the server title font not loading properly
-vgui_font_reload 
+//vgui_font_reload 

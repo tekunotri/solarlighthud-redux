@@ -183,7 +183,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -255,7 +255,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -327,7 +327,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -399,7 +399,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -471,7 +471,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -1168,6 +1168,7 @@
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -1239,7 +1240,7 @@
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
-			"sound_armed"		"UI/buttonrollover.wav"
+			"sound_armed"		"UI/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"vo/null.mp3"
 
@@ -1504,235 +1505,14 @@
 		"visible"		"0"
 	}
 
-	"EventPromo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
-		"xpos"			"9999" //c-290
-		"ypos"			"160"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
-		"visible"		"1"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"260"
-//			"tall"			"120"
-			"tall"			"96"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"0"
-				"fgcolor_override"	"235 227 203 255"
-			}		
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-//				"ypos"					"p0.47"
-				"ypos"					"27"
-				"zpos"					"100"
-				"wide"					"f10"
-//				"tall"					"p0.5"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Winter 2023 Cosmetic Key"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Winter 2023 Cosmetic Case"
-						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Taunt: Cheers!"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Taunt: Mourning Mercs"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Taunt: Foul Play"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Map Token Snowtower"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Map Token Krampus"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Map Token Haarp"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Map Token Brew"
-						"show_market"	"0"
-					}
-					"9"
-					{
-						"item"		"Map Token Hacksaw"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Map Token Turbine Event"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Map Token Carrier"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Map Token Galleria"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Map Token Emerge"
-						"show_market"	"0"
-					}
-					"14"
-					{
-						"item"		"Map Token Camber"
-						"show_market"	"0"
-					}
-					"15"
-					{
-						"item"		"Strange Filter: Snowtower (Community)"
-						"show_market"	"0"
-					}
-					"16"
-					{
-						"item"		"Strange Filter: Krampus (Community)"
-						"show_market"	"0"
-					}
-					"17"
-					{
-						"item"		"Strange Filter: Haarp (Community)"
-						"show_market"	"0"
-					}
-					"18"
-					{
-						"item"		"Strange Filter: Brew (Community)"
-						"show_market"	"0"
-					}
-					"19"
-					{
-						"item"		"Strange Filter: Hacksaw (Community)"
-						"show_market"	"0"
-					}
-					"20"
-					{
-						"item"		"Strange Filter: Turbine Event (Community)"
-						"show_market"	"0"
-					}
-					"21"
-					{
-						"item"		"Strange Filter: Carrier (Community)"
-						"show_market"	"0"
-					}
-					"22"
-					{
-						"item"		"Strange Filter: Galleria (Community)"
-						"show_market"	"0"
-					}
-					"23"
-					{
-						"item"		"Strange Filter: Emerge (Community)"
-						"show_market"	"0"
-					}
-					"24"
-					{
-						"item"		"Strange Filter: Camber (Community)"
-						"show_market"	"0"
-					}
-				}
-			}
-
-		} // Background
-
-	} // EventPromo
-
 	"ShowPromoCodesButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShowPromoCodesButton"
-		"xpos"			"c30"
-		"ypos"			"385"
-		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"26"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#MMenu_ShowPromoCodes"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"command"		"showpromocodes"
-		
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 
 	// command comes from GameMenu.res
@@ -2467,7 +2247,7 @@
 		"default"		"1"
 		"command"		"url https://github.com/SolarLightTF2/solarlighthud-redux/issues/new"
 		"labeltext"		"#MMenu_Tooltip_ReportBug"
-		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"

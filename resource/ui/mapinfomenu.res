@@ -316,16 +316,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Box1"
-		"xpos"			"c-210"
-		"ypos"			"95"
+		"xpos"			"c-215"
+		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"420"
-		"tall"			"295"
+		"wide"			"430"
+		"tall"			"305"
 		"fillcolor"		"0 0 0 0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"BorderTanDarkerCornersVerySmall"
-	}	
+	}		
 }

@@ -147,7 +147,7 @@
 		"textAlignment"	"center"
 		
 		"default"		"1"
-		"sound_armed"		"UI/buttonrollover.wav"
+		"sound_armed"		"UI/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 
 		"labeltext"		"#TF_Training"

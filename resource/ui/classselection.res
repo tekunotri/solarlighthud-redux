@@ -376,7 +376,7 @@
 		"border_armed"		"BorderTanDarkCornersVerySmall"
 	}
 	
-	"EditLoadoutButton" [$WIN32] 
+	"EditLoadoutButton" [$WIN32] //I enabled this in the controller menu (_sc.res), but pretty sure it crashes on keyboard mode? Been a while since I tried restoring this
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"

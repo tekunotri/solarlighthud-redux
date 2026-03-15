@@ -361,7 +361,7 @@
 				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
+				"image"			"replay/thumbnails/button_glyphs/glyph_github"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}				
@@ -433,7 +433,7 @@
 				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_create"
+				"image"			"replay/thumbnails/button_glyphs/glyph_comfig"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}				

@@ -23,7 +23,7 @@
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"illustrations/gamemode_payload"
+		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_casual"
 		"button_token"		"#MMenu_PlayList_Casual_Button"
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
@@ -65,7 +65,7 @@
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"replay/thumbnails/mode_select/gamemode_mvm_resized"
+		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_mvm"
 		"button_token"		"#MMenu_PlayList_MvM_Button"
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"

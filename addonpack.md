@@ -2,6 +2,10 @@
 
 This mod pack includes the following:
 
+# Music pack
+
+Will work in Casual mode, but will break in competitive servers.
+Use the Casual preloader to bypass this breakage, if it is allowed where you're playing.
 
 # Casual Mode Themes
 
@@ -9,7 +13,8 @@ Will work in Casual
 
 # Round Outcome Themes
 
-Will work in Casual
+Will work in Casual, but will break in competitive servers.
+Use the Casual preloader to bypass this breakage, if it is allowed where you're playing.
 
 # Medic call bubbles
 

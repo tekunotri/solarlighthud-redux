@@ -854,18 +854,167 @@
 					"proportionaltoparent"	"1"
 				}
 				
+				"ScoreboardLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CustomizationWarning"
+					"font"			"Futura12"
+					"labelText"		"#Custom_Note_Scoreboard"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"25"
+					"zpos"			"10"
+					"wide"			"550"
+					"tall"			"22"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TFOrange"
+					"proportionaltoparent"	"1"
+				}
+				
+				"12v12ScoreboardButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"12v12ScoreboardButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_12_Scoreboard"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"46"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudscoreboard_12v12"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"9v9ScoreboardButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"9v9ScoreboardButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_9_Scoreboard"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"74"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudscoreboard_9v9"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"6v6ScoreboardButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"6v6ScoreboardButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_6_Scoreboard"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"102"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudscoreboard_6v6"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+
+				"ScoreboardLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CustomizationWarning"
+					"font"			"Futura12"
+					"labelText"		"#Custom_Note_ScoreboardStats"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"125"
+					"zpos"			"10"
+					"wide"			"550"
+					"tall"			"22"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TFOrange"
+					"proportionaltoparent"	"1"
+				}
+			
 				"DefaultScoreboardStatsButton"
 				{
 					"ControlName"	"CExImageButton"
 					"fieldName"		"DefaultScoreboardStatsButton"
 					"font"			"FuturaItalic20"
-					"labelText"		"DefaultScoreboardStats"
+					"labelText"		"#Customization_Default"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"26"
+					"ypos"			"146"
 					"zpos"			"11"
 					"wide"			"400"
-					"tall"			"225"
+					"tall"			"24"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine DefaultScoreboardStats"
@@ -885,16 +1034,7 @@
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"xpos"			"cs-0.5"
-						"ypos"			"cs-0.5"
-						"zpos"			"3"
-						"wide"			"390"
-						"tall"			"219"
-						"visible"		"1"
-						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDDefault"
-						"scaleImage"	"1"
-						"paintBackground"   "1"
-					"proportionaltoparent"	"1"
+						"visible"		"0"
 					}	
 				}
 				
@@ -903,13 +1043,13 @@
 					"ControlName"	"CExImageButton"
 					"fieldName"		"SimpleScoreboardStatsButton"
 					"font"			"FuturaItalic20"
-					"labelText"		"SimpleScoreboardStats"
+					"labelText"		"#Custom_Setting_KDA_Stats"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"256"
+					"ypos"			"174"
 					"zpos"			"11"
 					"wide"			"400"
-					"tall"			"225"
+					"tall"			"24"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine SimpleScoreboardStats"
@@ -929,16 +1069,7 @@
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"xpos"			"cs-0.5"
-						"ypos"			"cs-0.5"
-						"zpos"			"3"
-						"wide"			"390"
-						"tall"			"219"
-						"visible"		"1"
-						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDCenter"
-						"scaleImage"	"1"
-						"paintBackground"   "1"
-					"proportionaltoparent"	"1"
+						"visible"		"0"
 					}	
 				}
 				
@@ -947,13 +1078,13 @@
 					"ControlName"	"CExImageButton"
 					"fieldName"		"DisabledScoreboardStatsButton"
 					"font"			"FuturaItalic20"
-					"labelText"		"DisabledScoreboardStats"
+					"labelText"		"#Customization_Disabled"
 					"textAlignment"	"center"
 					"xpos"			"cs-0.5"
-					"ypos"			"486"
+					"ypos"			"202"
 					"zpos"			"11"
 					"wide"			"400"
-					"tall"			"225"
+					"tall"			"24"
 					"visible"		"1"
 					"enabled"		"1"
 					"command"			"engine DisabledScoreboardStats"
@@ -973,16 +1104,260 @@
 					{
 						"ControlName"	"ImagePanel"
 						"fieldName"		"SubImage"
-						"xpos"			"cs-0.5"
-						"ypos"			"cs-0.5"
-						"zpos"			"3"
-						"wide"			"390"
-						"tall"			"219"
-						"visible"		"1"
-						"image"			"replay/thumbnails/customizationmenu/ChooseAHUDClassic"
-						"scaleImage"	"1"
-						"paintBackground"   "1"
+						"visible"		"0"
+					}	
+				}
+				
+				"PlayerPanelsLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"PlayerPanelsLabel"
+					"font"			"Futura12"
+					"labelText"		"#Custom_Note_PlayerPanels"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"225"
+					"zpos"			"10"
+					"wide"			"550"
+					"tall"			"22"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TFOrange"
 					"proportionaltoparent"	"1"
+				}
+				
+				"DefaultPlayerPanelsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DefaultPlayerPanelsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_Def_MatchHUD"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"246"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudmatchstatus_def"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"FullBarPlayerPanelsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"FullBarPlayerPanelsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_Full_MatchHUD"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"274"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudmatchstatus_fullbar"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"NamedPlayerPanelsButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"NamedPlayerPanelsButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_Name_MatchHUD"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"302"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine hudmatchstatus_names"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"TimerLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"TimerLabel"
+					"font"			"Futura12"
+					"labelText"		"#Custom_Note_Timer"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"326"
+					"zpos"			"10"
+					"wide"			"550"
+					"tall"			"22"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TFOrange"
+					"proportionaltoparent"	"1"
+				}
+				"DefaultTimerButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DefaultTimerButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Customization_Redux"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"346"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine DefaultTimer"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"ClassicTimerButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"ClassicTimerButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Customization_Classic"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"374"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine ClassicTimer"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"ClassicerTimerButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"ClassicerTimerButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Customization_Classicer"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"402"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine ClassicerTimer"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
 					}	
 				}
             }
@@ -1183,6 +1558,133 @@
 					"centerwrap"	"1"
 					"fgcolor_override"	"TFOrange"
 					"proportionaltoparent"	"1"
+				}
+				
+				"ScoreboardLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"CustomizationWarning"
+					"font"			"Futura12"
+					"labelText"		"#Custom_Note_PassTime"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"25"
+					"zpos"			"10"
+					"wide"			"550"
+					"tall"			"22"
+					"autoResize"	"0"
+					"pinCorner"		"0"
+					"visible"		"1"
+					"enabled"		"1"
+					"textinsetx"	"5"
+					"centerwrap"	"1"
+					"fgcolor_override"	"TFOrange"
+					"proportionaltoparent"	"1"
+				}
+				
+				"DefaultPassTimeButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"DefaultPassTimeButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Customization_Default"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"46"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine DefaultPassTime"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"MemeMetaPassTimeButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"MemeMetaPassTimeButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_Meme_PassTime"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"74"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine MemeMetaPassTime"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
+				}
+				
+				"BallOnlyPassTimeButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"BallOnlyPassTimeButton"
+					"font"			"FuturaItalic20"
+					"labelText"		"#Custom_Setting_BallOnly_PassTime"
+					"textAlignment"	"center"
+					"xpos"			"cs-0.5"
+					"ypos"			"102"
+					"zpos"			"11"
+					"wide"			"400"
+					"tall"			"24"
+					"visible"		"1"
+					"enabled"		"1"
+					"command"			"engine BallOnlyPassTime"
+					"actionsignallevel" 	"4"
+					"paintbackgroundtype" 	"0"
+					"roundedcorners"		"0"
+					"stay_armed_on_click"	"1"
+
+					"sound_armed"		"ui/item_info_mouseover.wav"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"fgcolor_override"	"TanLight"
+					"proportionaltoparent"	"1"
+					
+					"SubImage" //notification count image
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"SubImage"
+						"visible"		"0"
+					}	
 				}
             }
         } //end expandable Gamemodes

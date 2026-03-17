@@ -261,7 +261,7 @@ To fix, or not to fix? That is the question.
 * New respawn text appearance.
 * No custom animations. No plans to add the ones from MEME vs. META either, as they have a tendency to break. Even the default TF2 HUD breaks here.
 * Some things have been moved around to accommodate for these changes.
-* Options to change the timer appearance are nearly done but are currently bugged, so console-command-only for now. This may arrive later.
+* Customization options - can appear more like the one from SolarLightHUD Classic.
 
 
 

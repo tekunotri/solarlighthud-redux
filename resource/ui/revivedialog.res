@@ -5,7 +5,7 @@
 		"ControlName"		"Frame"
 		"fieldName"		"ConfirmDialog"
 		"xpos"			"c-110"
-		"ypos"			"105"
+		"ypos"			"125"
 		"wide"			"220"
 		"tall"			"70"
 		"autoResize"	"0"

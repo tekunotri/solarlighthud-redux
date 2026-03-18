@@ -60,6 +60,7 @@ Desired improvements for later:
 * Some materials could be updated to use vertexcolor
 * This HUD could be optimized a bit
 * Some outlined text could benefit from expanding backgrounds, similar to the one used for HP when the number exceeds 1000
+* Could add speedometer options
 
 Issues:
 * Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files

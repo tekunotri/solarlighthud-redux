@@ -61,16 +61,26 @@ Desired improvements for later:
 * This HUD could be optimized a bit
 * Some outlined text could benefit from expanding backgrounds, similar to the one used for HP when the number exceeds 1000
 * Could add speedometer options
+* Report a Bug button may get removed/minimized for a 'cleaner' main menu appearance
 
 Issues:
 * Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files
 * Some tip text probably cuts off while loading, especially in 4:3, and even more noticeable when using a controller (which auto-enlarges sourcescheme elements)
 * Pibble HUD (for 2v2 PASS Time) looks too bland and could use an update
-* Some unofficial Vscript gamemodes (i.e. Freezetag, Prophunt) are unedited
+* Some unofficial Vscript gamemodes (i.e. Gun Game) are unedited
 * Not all buttons have a consistent appearance
+* Team Comtress 2 is not supported without modifications
 
 To fix, or not to fix? That is the question.
 
+# Note for Team Comtress 2 Users
+
+This HUD technically works in TC2 (though without any support for the new menus), but requires a modification.
+
+Something in the first-run script causes an instant game crash upon launch. This can be resolved by deleting customization.cfg or modifying valve.rc
+
+* I'm pretty sure HUD customization menus don't work in most sourcemods anyway due to the lack of Sixense commands
+* There are no buttons for Comtress options menus, but attempting to open the matchmaking menu will at least present the Quickplay menu
 
 # REDUX PATCH NOTES (compared to old 2018 SolarLightHUD):
 
@@ -307,6 +317,8 @@ To fix, or not to fix? That is the question.
 * Minmodes are included for each PASS Time HUD, each one varying slightly depending on which option you picked. (TODO: Default PASS Minmode)
 * Every official PD map has been checked for issues and some fixes were made on a per-map basis, since PD lets me do that.
 * Tried to edit the HUD used in Perks but it's still a bit jank due to limitations, sorry.
+* Added a Freezetag HUD, copy pasted from arena_afterlife
+* Added a basic TF2 Party edit
 
 
 

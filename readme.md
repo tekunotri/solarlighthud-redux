@@ -74,9 +74,13 @@ Issues:
 To fix, or not to fix? That is the question.
 
 # Note for Team Comtress 2 Users
+
 This HUD technically works in TC2 (though without any support for the new menus), but requires a modification.
+
 Something in the first-run script causes an instant game crash upon launch. This can be resolved by deleting customization.cfg or modifying valve.rc
-	* I'm pretty sure HUD customization menus don't work in most sourcemods anyway due to the lack of Sixense commands
+
+* I'm pretty sure HUD customization menus don't work in most sourcemods anyway due to the lack of Sixense commands
+* There are no buttons for Comtress options menus, but attempting to open the matchmaking menu will at least present the Quickplay menu
 
 # REDUX PATCH NOTES (compared to old 2018 SolarLightHUD):
 

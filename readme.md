@@ -50,7 +50,8 @@ ClassicerHPAmmo
 # Room for improvement
 
 Desired improvements for later:
-* Pyro, Engineer, Sniper and Spy currently do not have main menu renders
+* Crosshairs?
+* Hitmarkers?
 * Some weapon counter icons should probably have their icons replaced with a team-colored "K" crit icon.
 * Centered Meters for the 'Classic' HUD Mode were nearly complete (courtesy of Techno), but were too buggy to ship in the current release
 * The Customization menus could benefit from better button layouts and more preview images

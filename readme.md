@@ -63,6 +63,8 @@ Desired improvements for later:
 * Some outlined text could benefit from expanding backgrounds, similar to the one used for HP when the number exceeds 1000
 * Could add speedometer options
 * Report a Bug button may get removed/minimized for a 'cleaner' main menu appearance
+* Case/crate unboxing has not been tested and may appear with a stock TF2 border or simply be unpolished
+  * This will be easier to test and iterate when free halloween contract packages start dropping
 
 Issues:
 * Potentially some placeholders / leftovers from either the stock HUD or the old HUD "SolarLightHUD Classic", mainly in the files

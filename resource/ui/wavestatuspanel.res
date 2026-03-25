@@ -14,7 +14,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"WaveCustomBGBorder"
-		"xpos"			"cs-0.5"
+		"xpos"			"265"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"70"
@@ -27,7 +27,6 @@
 		"enabled"		"1"
 		"draw_corner_height" "11"
 		"border"		"BorderTanDarkerCornersTransparentVerySmall"
-		"proportionaltoparent"	"1"
 	}
 	"WaveCountLabel"
 	{
@@ -35,7 +34,7 @@
 		"fieldName"		"WaveCountLabel"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"cs-0.5"
+		"xpos"			"265"
 		"ypos"			"1"
 		"zpos"			"6"
 		"wide"			"70"
@@ -45,7 +44,6 @@
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
-		"proportionaltoparent"	"1"
 	}
 	
 	"SeparatorBar"

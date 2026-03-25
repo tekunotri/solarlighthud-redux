@@ -7,7 +7,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimerBox"
-		"xpos"			"cs-0.5"
+		"xpos"			"170"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"60"

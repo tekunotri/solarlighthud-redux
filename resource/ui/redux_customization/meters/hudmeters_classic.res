@@ -16,7 +16,7 @@
 		"ypos"					"31"
 		"visible"				"0"
 	}
-	"ItemEffectMeter2"
+	"ItemEffectMeter2" //pyro jetpack needed
 	{
 		"xpos"			"34"
 		"ypos"			"28"

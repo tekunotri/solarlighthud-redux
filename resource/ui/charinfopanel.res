@@ -181,6 +181,7 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/panel_close.wav"
 	}		

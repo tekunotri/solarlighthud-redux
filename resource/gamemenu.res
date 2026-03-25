@@ -116,7 +116,7 @@
 	"ComfigHUDsButton"
 	{
 		"label"			"#MainMenu_Comfig"
-		"Command"		"url https://comfig.app/huds/page/solarlight-hud/"
+		"Command"		"url https://comfig.app/huds/page/solarlighthud-redux/"
 		"tooltip" 		"#MainMenu_Comfig"
 	}
 	
@@ -126,5 +126,19 @@
 		"Command"		"engine playvideo redux_intro"
 		"tooltip" 		"#MainMenu_Video"
 		"OnlyAtMenu"	"1"
+	}
+	
+	"TFLogoOctagonButton"
+	{
+		"label"			""
+		"Command"		"engine con_enable 1;showconsole"
+		"tooltip" 		"#MainMenu_Console"
+	}
+	
+	"ReloadHUDButton"
+	{
+		"label"			""
+		"Command"		"engine hud_reloadscheme"
+		"tooltip" 		"#MainMenu_Reloadscheme"
 	}
 }

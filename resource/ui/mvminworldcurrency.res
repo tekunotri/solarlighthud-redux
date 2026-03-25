@@ -31,6 +31,22 @@
 		"proportionalToParent"	"1"
 	}
 	
+	"BackgroundNewBorder"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundNew"
+		"xpos"			"10"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"BorderTanDarkerCornersVerySmall"
+		"scaleImage"	"1"	
+		"proportionalToParent"	"1"
+	}
+	
 	"CurrencyGood"
 	{
 		"ControlName"	"CExLabel"
@@ -55,23 +71,6 @@
 		"fieldName"		"CurrencyBad"
 		"font"			"SLBoldSmall"
 		"fgcolor"		"SolarTeamRED"
-		"xpos"			"0"
-		"ypos"			"3"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"	
-		"labelText"		"%currency%"
-		"textinsetx"	"48"
-	}
-	"CurrencyOutline"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyBad"
-		"font"			"SLBoldSmallStroke"
-		"fgcolor"		"TanDarker"
 		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"4"

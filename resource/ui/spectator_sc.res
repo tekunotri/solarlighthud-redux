@@ -1,74 +1,7 @@
+#base spectator.res
+
 "resource/ui/spectator.res"
 {
-	"Spectator"
-	{
-		"ControlName"		"Frame"
-		"fieldName"		"Spectator"
-		"tall"			"480"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
-	"specgui"
-	{
-	}
-	"topbar"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopBar"
-		"visible"		"0"
-		"enabled"		"0"
-		"tall"			"0"
-	}
-	"BottomBar"
-	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"visible"		"0"
-		"enabled"		"0"
-		"tall"			"0"
-	}
-	
-	"BGHeader"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGHeader"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"15"
-		"fillcolor"		"TanLightSpectate"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
-	}
-	
-	"BGFooter"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGFooter"
-		"xpos"			"0"
-		"ypos"			"r15"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"15"
-		"fillcolor"		"TanLightSpectate"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
-	}
-	
 	"BGCcntrollerHints"
 	{
 		"ControlName"	"ImagePanel"
@@ -78,87 +11,13 @@
 		"zpos"			"0"
 		"wide"			"130"
 		"tall"			"74"
-		"fillcolor"		"TanDarkerTransparent"
+		"border"		"BorderTanDarkerCornersTransparentVerySmall"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
-		"alpha"			"255"
-		"draw_corner_height" "11"
-	}
-	"bottombarblank"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r0"	[$WIN32]
-		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-	}
-	"ReinforcementsLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-150"	[$WIN32]
-		"ypos"			"r140"	[$WIN32]
-		"wide"			"300"	[$WIN32]
-		"tall"			"24"
-		"autoResize"		"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"font"			"Asimov24"
-		"fgcolor_override"	"TanLight"
-		"border"		"TFFatLineBorder"
-	}
-	"BuyBackLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BuyBackLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"400"
-		"tall"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"center"
-		"font"			"HudFontSmall"
-		"wrap"			"1"
-		"centerwrap"	"1"
-	}
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"9999"	[$WIN32]
-	}
-	"ClassOrTeamHintIcon"
-	{
-		"ControlName"	"CSCHintIcon"
-		"fieldName"		"ClassOrTeamHintIcon"
-		"xpos"			"50"
-		"ypos"			"70"
-		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"visible_minmode"		"0"
 		"enabled"		"1"
-		"actionName"	"changeclass"
-		"actionSet"		"SpectatorControls"
 	}
 	"CycleTargetFwdHintIcon"
 	{
@@ -228,6 +87,24 @@
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
+	}
+	
+	"ClassOrTeamHintIcon"
+	{
+		"ControlName"	"CSCHintIcon"
+		"fieldName"		"ClassOrTeamHintIcon"
+		"xpos"			"50"
+		"ypos"			"70"
+		"zpos"			"7"
+		"wide"			"18"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"visible_minmode"		"0"
+		"enabled"		"1"
+		"actionName"	"changeclass"
+		"actionSet"		"SpectatorControls"
 	}
 	
 	"ClassOrTeamLabel"

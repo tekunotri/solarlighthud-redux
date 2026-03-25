@@ -1,5 +1,7 @@
 "resource/hudlayout.res"
 {
+
+//dimmer fix
 	MainMenuOverride
 	{
 		"ControlName"	"CHudMainMenuOverride"
@@ -13,13 +15,36 @@
     	}	
 	}
 
+//hide payload swoop
 	"EscortHilightSwoop"
 	{
 		"ControlName" "CControlPointIconSwoop"
 		"xpos" "9999"
 		"alpha" "0"
 	}	
+
+//fix console errors, these are moved to their respective .res files
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+	}
 	
+	DisguiseStatus
+	{
+		"fieldName" "DisguiseStatus"
+	}
+	
+	CHealthAccountPanel
+	{
+		"fieldName"				"CHealthAccountPanel"
+	}
+	
+	HudWeaponAmmo
+	{
+		"fieldName" "HudWeaponAmmo"
+	}
+
+//unused speedometer
 	"speed1"
 	{
 		"controlName" "CTFImagePanel"
@@ -38,6 +63,7 @@
 		"image" "replay/thumbnails/speedo/speed1"
 		"scaleimage" "1"
 	}
+	
 	"speed2"
 	{
 		"controlName" "CTFImagePanel"
@@ -360,8 +386,10 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-180"
-		"ypos"				"-3"
+		"xpos"				"-3"
+		"xpos_minmode"				"18"
+		"ypos"				"r113"
+		"ypos_minmode"				"r93"
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"100"
@@ -773,16 +801,16 @@
 		"item_tall"	"24"
 		
 		"show_avatar"		"1"
-		"avatar_xpos"			"-13"
+		"avatar_xpos"			"-6"
 		"avatar_ypos"			"0"
 		"avatar_wide"			"24"
 		"avatar_tall"			"24"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"1"
-		"dead_ypos"			"0"
-		"dead_wide"			"16"
-		"dead_tall"			"16"
+		"dead_xpos"			"-2"
+		"dead_ypos"			"6"
+		"dead_wide"			"13"
+		"dead_tall"			"13"
 		
 		"show_voice_icon"	"0"
 		"icon_ypos"			"0"
@@ -905,7 +933,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"
@@ -917,7 +945,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"255"
+		"ypos"					"80"
 		"wide"					"300"
 		"tall"					"215"
 	}

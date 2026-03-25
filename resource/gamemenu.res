@@ -134,4 +134,11 @@
 		"Command"		"engine con_enable 1;showconsole"
 		"tooltip" 		"#MainMenu_Console"
 	}
+	
+	"ReloadHUDButton"
+	{
+		"label"			""
+		"Command"		"engine hud_reloadscheme"
+		"tooltip" 		"#MainMenu_Reloadscheme"
+	}
 }

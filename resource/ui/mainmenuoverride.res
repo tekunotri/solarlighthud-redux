@@ -512,6 +512,77 @@
 		}
 	}
 	
+	"ReloadHUDButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReloadHUDButton"
+		"xpos"			"5"
+		"ypos"			"rs1-40"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"p1"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"100"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_armed"		"UI/item_info_mouseover.wav"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			"paintbackgroundtype"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"defaultbgColor_override" "Blank"
+			"armedbgColor_override" "Blank"
+			"depressedbgColor_override" "Blank"
+			
+			"border_default"	"NoBorder"
+			"border_depressed"	"NoBorder"
+			"border_armed"		"NoBorder"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
+			"proportionaltoparent"	"1"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"15"
+				"tall"			"15"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"icon_resume"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}				
+		}
+	}
+	
 	"DebugReloadButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -520,8 +591,8 @@
 		"ypos"			"rs1-40"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"

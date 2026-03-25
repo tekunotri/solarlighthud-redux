@@ -34,15 +34,15 @@
 		"visible"		"1"
 		"PaintBackgroundType" "2"
 		
-		"WinningTeamLabelDropshadow"
+		"WinningTeamLabelDropshadow" //just make it a blue rectangle
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
-			"fgcolor"		"black"
-			"xpos"			"3"
-			"ypos"			"3"
-			"wide"			"295"
+			"font"			"SLBoldMediumSmallerStroke"
+			"fgcolor"		"0 0 0 0"
+			"xpos"			"4"
+			"ypos"			"4"
+			"wide"			"292"
 			"tall"			"26"
 			"autoResize"		"0"
 			"pinCorner"		"0"
@@ -52,10 +52,11 @@
 			"textAlignment"		"Center"
 			"dulltext"		"0"
 			"brighttext"		"0"
+			"roundedcorners"	"0"
 			
 			// blue Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"black"		
+			"fgcolor_override"	"0 0 0 0"		
 			"bgcolor_override"	"91 122 142 200"
 		}
 		
@@ -63,7 +64,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"SLBoldMediumSmaller"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"

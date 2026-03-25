@@ -23,7 +23,7 @@
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"illustrations/gamemode_payload"
+		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_casual"
 		"button_token"		"#MMenu_PlayList_Casual_Button"
 		"button_command"	"play_casual"
 		"desc_token"		"#MMenu_PlayList_Casual_Desc"
@@ -65,7 +65,7 @@
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"replay/thumbnails/mode_select/gamemode_mvm_resized"
+		"image_name"		"replay/thumbnails/gamemodeselect/gamemode_mvm"
 		"button_token"		"#MMenu_PlayList_MvM_Button"
 		"button_command"	"play_mvm"
 		"desc_token"		"#MMenu_PlayList_MvM_Desc"
@@ -114,6 +114,76 @@
 		if_event
 		{
 		}
+	}
+	
+	"ImageBomb"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ImageBomb"
+		"xpos"			"245"
+		"ypos"			"280"
+		"zpos"			"12"
+		"wide"			"60"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/graduation_bomb"
+		"scaleImage"	"1"
+	}
+	
+	"TrainingButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TrainingButton"
+		"xpos"			"215"
+		"ypos"			"340"
+		"zpos"			"11"
+		"wide"			"120"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"use_proportional_insets" "1"
+		"font"			"SLBoldSmall"
+		"textAlignment"	"center"
+		
+		"default"		"1"
+		"sound_armed"		"UI/item_info_mouseover.wav"
+		"sound_depressed"	"UI/buttonclick.wav"
+
+		"labeltext"		"#TF_Training"
+		"proportionaltoparent"	"1"
+		"command"		"Play_Training"
+	
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
+		"paintbackground"	"1"
+		
+		"defaultFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "117 107 94 255"
+		"depressedFgColor_override" "235 226 202 255"
+		
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "235 226 202 255"
+		"depressedBgColor_override" "117 107 94 255"
+		
+		"image_drawcolor"   "235 226 202 255"
+		"image_armedcolor"  "117 107 94 255"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"glyph_close_x"
+			"scaleImage"	"1"
+			"proportionaltoparent"	"1"
+		}		
 	}
 
 	"CreateServerEntry"

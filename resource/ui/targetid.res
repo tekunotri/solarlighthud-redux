@@ -202,10 +202,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"0"
-		"ypos"			"24"
+		"ypos"			"28"
 		"zpos"			"14"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"10"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
@@ -228,6 +228,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"visible"		"0"
 			"enabled"		"0"
 			"icon"			""
@@ -237,8 +239,11 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"visible"		"0"
 			"enabled"		"0"
+			"alpha"			"0"
 		}
 		"MoveableSymbolIcon"
 		{

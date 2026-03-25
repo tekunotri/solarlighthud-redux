@@ -10,8 +10,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"0"
-		"xpos"			"63"	//temp
-		"ypos"			"r60"	//temp
+		"xpos"			"173"
+		"ypos"			"r37"
 		"wide"			"70"
 		"tall"			"22"
 		"MeterFG"		"White"

@@ -301,8 +301,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-190"
-		"ypos"			"2"
+		"xpos"			"0"
+		"ypos"			"22"
 		"wide"			"380"
 		"tall"			"14"
 		"autoResize"	"0"
@@ -315,6 +315,10 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"border"		"BorderTanDarkerCornersVerySmall"
+		
+		"pin_to_sibling"	"Anchor"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	
 		if_mvm
 		{

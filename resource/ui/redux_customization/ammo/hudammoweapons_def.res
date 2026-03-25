@@ -53,21 +53,6 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
-	
-	"SolarAmmoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SolarAmmoImage"
-		"xpos"			"246"
-		"ypos"			"34"
-		"zpos"			"0"
-		"wide"			"27"
-		"tall"			"27"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hudammo"
-		"scaleImage"	"1"	
-	}
 
 	"SolarAmmoBG"
 	{

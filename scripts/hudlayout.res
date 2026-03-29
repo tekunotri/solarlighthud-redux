@@ -389,7 +389,7 @@
 		"xpos"				"-3"
 		"xpos_minmode"				"18"
 		"ypos"				"r113"
-		"ypos_minmode"				"r93"
+		"ypos_minmode"				"r95"
 		"zpos"				"10"
 		"wide"				"100"
 		"tall"				"100"

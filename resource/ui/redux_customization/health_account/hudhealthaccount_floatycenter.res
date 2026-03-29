@@ -3,8 +3,8 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"150" //old 0
-		"ypos"					"r100" //old r40
+		"xpos"					"c-188" //old 0
+		"ypos"					"r95" //old r40
 		"wide"					"100"
 		"tall"  				"40"
 		"visible" 				"1"

@@ -1,8 +1,8 @@
-"resource/ui/redux_customization/meters/hudcounters_center.res"
+"resource/ui/redux_customization/meters/hudcounters_floaty.res"
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c-205"
+		"xpos"			"215"
 		"ypos"			"r57"
 	}
 }

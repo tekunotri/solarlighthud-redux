@@ -41,10 +41,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"bg"
-		"xpos"			"c-427"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-15"
-		"wide"			"854"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"

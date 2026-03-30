@@ -1740,15 +1740,16 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"SpectatorVerySmall"
+		"SpectatorVerySmall" //used for spectator xray names on player/buildings and nowhere else
 		{
 			"1"
 			{
-				"name"		"futurano2d_demibold"
-				"tall"		"7"
-				"weight"	"400"
+				"name"		"asimov"
+				"tall"		"12"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion

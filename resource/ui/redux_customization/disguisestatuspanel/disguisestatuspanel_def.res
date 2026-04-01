@@ -5,7 +5,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"24"	[$WIN32] //old 10
+		"xpos"		"20"	[$WIN32] //old 10
 		"xpos_minmode"		"76"	[$WIN32] //old 10
 		"ypos"		"r125"	[$WIN32] //old r70
 		"ypos_minmode"	"r100"

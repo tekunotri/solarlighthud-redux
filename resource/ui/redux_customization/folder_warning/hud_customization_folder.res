@@ -1,4 +1,4 @@
-"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Folder.res"
+"resource/ui/customizations/#customization_menu/hud_customization_folder.res"
 {
 	"SafeMode"
 	{
@@ -270,6 +270,7 @@
 				"fieldName"       "MyRichText"
 				"xpos"            "cs-0.5"
 				"ypos"            "c132"
+				"zpos"            "2"
 				"wide"            "80"
 				"tall"            "20"
 				"visible"         "1"

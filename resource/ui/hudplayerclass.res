@@ -318,10 +318,11 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
+			"image"					"replay/thumbnails/blank"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 			"drawcolor"		"TanDarker"
+			"border"		"BorderTanDarkerCornersVerySmall"
 		}
 
 		"CarryingLabel"
@@ -358,8 +359,8 @@
 			"tall"	 			"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"		"0"

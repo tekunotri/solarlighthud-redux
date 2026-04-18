@@ -673,7 +673,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"jointeam red"
-		"labeltext"			"&1"
+		"labeltext"			"&3"
 		"font"				"blank"
 		"scaleImage"		"1"
 
@@ -867,7 +867,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"command"		"jointeam spectatearena"
+		"command"		"jointeam spectate"
 		"font"			"SLBoldMediumSmaller"
 		
 		"sound_armed"		"ui/item_info_mouseover.wav"
@@ -885,6 +885,24 @@
 		"border_default"	"BorderTanDarkCornersVerySmall"
 		"border_depressed"	"BorderTanLightCornersVerySmall"
 		"border_armed"		"BorderTanLightCornersVerySmall"
+	}
+	
+	"SolarSpectateButtonShortcut"	[$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SolarSpectateButtonShortcut"
+		"xpos"			"c20"
+		"ypos"			"c170"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&2"
+		"command"		"jointeam spectate"
 	}
 	
 	"SolarAutoSelectButton" [$WIN32] 
@@ -925,6 +943,24 @@
 		"border_armed"		"BorderTanLightCornersVerySmall"
 	}
 	
+	"SolarAutoSelectButtonShortcut" [$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"SolarAutoSelectButtonShortcut"
+		"xpos"			"c20"
+		"ypos"			"c170"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&4"
+		"command"		"jointeam auto"
+	}
+	
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
@@ -961,6 +997,24 @@
 		"border_default"	"BorderTanDarkCornersVerySmall"
 		"border_depressed"	"BorderTanLightCornersVerySmall"
 		"border_armed"		"BorderTanLightCornersVerySmall"
+	}
+	
+	"CancelButtonShortcut"	[$WIN32]
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButtonShortcut"
+		"xpos"			"c20"
+		"ypos"			"c170"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&Q"
+		"command"		"cancelmenu"
 	}
 	
 	"CancelButtonOutline"

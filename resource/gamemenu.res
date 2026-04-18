@@ -131,7 +131,7 @@
 	"TFLogoOctagonButton"
 	{
 		"label"			""
-		"Command"		"engine con_enable 1;showconsole"
+		"Command"		"engine con_enable 1;toggleconsole"
 		"tooltip" 		"#MainMenu_Console"
 	}
 	

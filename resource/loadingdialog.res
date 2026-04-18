@@ -21,7 +21,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"bgcolor_override"	"TanDarker"
+		"bgcolor_override"	"46 43 42 255"
 	//	"visible"		"1"
 	}
 	
@@ -58,7 +58,7 @@
 		"dulltext"		"1"
 		"brighttext"		"0"
 		"font"			"Trebuchet24"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"235 226 202 255"
 	}
 	"progress"
 	{
@@ -74,7 +74,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"235 226 202 255"
 	}
 	"CancelButton"
 	{

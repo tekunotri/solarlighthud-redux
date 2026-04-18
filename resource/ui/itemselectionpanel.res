@@ -414,7 +414,7 @@
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"c-90"
-		"ypos"			"315"
+		"ypos"			"313"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"25"
@@ -426,13 +426,29 @@
 		"brighttext"	"0"
 	}	
 	
-	"ShowBackpack"
+	"ShowBackpack" //I went and moved this into position and then remembered the screen it opens is completely borked due to regressions from the loadout screen. too bad!
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"ypos"			"9999"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"c-310"
+		"xpos"			"c-90"
+		"ypos"			"9999" //315
+		"wide"			"204"
+		"tall"			"22"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Selection_ShowBackpack"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"show_backpack"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"ShowSelection"
 	{

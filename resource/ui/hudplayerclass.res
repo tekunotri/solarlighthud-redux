@@ -108,10 +108,14 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		"xpos"			"0"	[$WIN32]
+		"xpos_minmode"	"40"
 		"ypos"			"r180"	[$WIN32]
+		"ypos_minmode"	"r138"
 		"zpos"			"2"		
 		"wide"			"80"
 		"tall"			"180"
+		"wide_minmode"	"62"
+		"tall_minmode"	"138"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -314,10 +318,11 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"image"					"replay/thumbnails/bgshapes/SHAPES_CTF_SCORES"
+			"image"					"replay/thumbnails/blank"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 			"drawcolor"		"TanDarker"
+			"border"		"BorderTanDarkerCornersVerySmall"
 		}
 
 		"CarryingLabel"
@@ -354,8 +359,8 @@
 			"tall"	 			"f0"
 			"autoResize"		"0"
 			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
+			"visible"			"0"
+			"enabled"			"0"
 			"textAlignment"		"North-West"
 			"dulltext"			"0"
 			"brighttext"		"0"

@@ -406,15 +406,52 @@
 	"NewItemPanel"
 	{
 		"fieldName"		"NewItemPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"50"
-		"wide"			"o1"
-		"tall"			"p1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 
+		//this is loading stuff from the war paint preview menu
+		//thankfully it can be overwritten
+		//I left the black bg unscathed though, pretty sure it's just named "bg"
+		//could probably add meme vs meta glass effects here just by testing in hudlayout or something, since this is just f0 f0
+		
+		"bgline"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"bgline"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
+		"TF2LogoSpinner"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"TF2LogoSpinner"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
+		"UltrawideBlockerLeft"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"UltrawideBlockerLeft"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		
+		"UltrawideBlockerRight"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"UltrawideBlockerRight"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+	
 		"YouTradedForLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -473,16 +510,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BGImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"p0.2"
-			"zpos"			"1"
-			"wide"			"p0.7"
-			"tall"			"p0.4"
+			"ypos"			"9999"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"item_carousel_bg"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
 		}
 
 		"CosmeticResultItemModelPanel"
@@ -791,7 +821,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"160"
+		"ypos"					"60"
 		"zpos"					"3"
 		"wide"					"o2"
 		"tall"					"250"
@@ -873,6 +903,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"envelopesend"
+		"sound_armed"		"UI/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"actionsignallevel"	"1"

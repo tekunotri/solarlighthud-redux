@@ -11,13 +11,6 @@
 
 	"Proxies"
 	{
-		"AnimatedTexture"
-		{
-			"animatedTextureVar" "$basetexture"
-			"animatedTextureFrameNumVar" "$frame"
-			"animatedTextureFrameRate" "60"
-		}
-
 		"TextureScroll"
 		{	
 			"texturescrollvar" "$baseTextureTransform"
